@@ -10,3 +10,5 @@ The rest of the components are just generic bootstrap wrappers. `ImageRow` rende
 
 ##### Oddities
 As this is hosted through gh-pages, everything that's in the repo is what's deployed to the site. This is why the `index.html` is in the root directory and the `dist/` is committed to the repo. Also, as this is just a demo, it's much easier to host the images through gh-pages rather than a CDN which is why all assets are committed to the repo.
+
+Check it out at https://opnet.github.io/
