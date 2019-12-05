@@ -1,0 +1,27 @@
+{
+  "name": "demosite",
+  "version": "1.0.0-alpha.0",
+  "repository": "git@github.com:opnet/opnet.github.com.git",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config ./configs/webpack.prod.config.js",
+    "build-dev": "webpack --config ./configs/webpack.dev.config.js"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0"
+  }
+}
