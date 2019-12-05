@@ -1,4 +1,4 @@
-# opnet.github.com - Lazily Loading Cats
+# Lazily Loading Cats
 A simple demo showing off a collection of react components used to implement inifinite scrolling. This is accomplished by lazily loading dom images when the user scrolls close to the bottom of the page.
 
 ### Breakdown
