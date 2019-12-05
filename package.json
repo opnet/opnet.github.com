@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "build": "webpack --config ./configs/webpack.prod.config.js",
-    "build-dev": "webpack --config ./configs/webpack.dev.config.js"
+    "build-dev": "webpack --config ./configs/webpack.dev.config.js",
+    "build-asset-manifest": "node scripts/buidAssetManifest.js",
+    "deploy": "yarn build-asset-manifest && yarn build"
   },
   "browserslist": [
     "defaults"
@@ -15,11 +17,16 @@
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.2.1",
+    "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "core-js": "^3.4.7",
+    "lodash.debounce": "^4.0.8",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0"
