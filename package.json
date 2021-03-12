@@ -4,10 +4,11 @@
   "repository": "git@github.com:opnet/opnet.github.com.git",
   "private": true,
   "scripts": {
-    "build": "webpack --config ./configs/webpack.prod.config.js",
-    "build-dev": "webpack --config ./configs/webpack.dev.config.js",
+    "build:prod": "webpack --config ./configs/webpack.prod.config.js",
+    "build:dev": "webpack --config ./configs/webpack.dev.config.js",
+    "start": "webpack serve --config ./configs/webpack.devServer.config.js",
     "build-asset-manifest": "node scripts/buidAssetManifest.js",
-    "deploy": "yarn build-asset-manifest && yarn build"
+    "deploy": "yarn build-asset-manifest && yarn build:prod"
   },
   "browserslist": [
     "defaults"
@@ -21,6 +22,8 @@
     "css-loader": "^5.1.2",
     "style-loader": "^2.0.0",
     "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
