@@ -43,7 +43,7 @@ The player who possesses the *wanderer's scarf* should have received the scarf f
 
 ***Developments.*** When the players first encounter Ezmerelda in [[Arc K - The Fallen Abbey]], the *wanderer's scarf* shimmers and is carried away in the same way that it did upon sensing Death House, landing at Ezmerelda's feet. Ezmerelda recognizes the scarf and, upon confirming how the player came to inherit it, greets the player as family, calling them "cousin."
 ## Inheritance—The Dragon's Scale
-![[Dragon's Scale.png]]
+![Dragon's Scale.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Dragon's%20Scale.png)
 A player seeking **inheritance** begins the campaign with the *dragon's scale*, a large silver scale that always feels cold to the touch. A Good-aligned creature that touches the scale feels a fleeting sense of safety, protection, and comfort.
 
 Unbeknownst to the player, the *dragon's scale* formerly belonged to Argynvost, the **adult silver dragon** who founded the Order of the Silver Dragon. The order's headquarters, the mansion of Argynvostholt, can be found in Barovia. When it senses the presence of Death House, the scale burns with an icy cold, one end glowing with a bright, silver light in the direction of the house. While the scale glows in this way, a Good-aligned creature that touches it feels a deep sense of longing, loss, and hope.
@@ -54,7 +54,7 @@ The player who possesses the *dragon's scale* should have received the scale fro
 
 If the player helps to retrieve Argynvost's skull and restore it to his crypt in [[Arc Q - A Shining Beacon]], Argynvost's spirit greets the player warmly, naming them his heir to the legacy of the Order of the Silver Dragon before lighting the beacon of Argynvostholt.
 ## Wealth—The Electrum Coin
-![[Electrum Coin.png]]
+![Electrum Coin.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Electrum%20Coin.png)
 A player seeking **wealth** begins the campaign with an old, chipped *electrum coin* stamped with the profiled visage of a proud, yet cold-looking nobleman. When seen in a certain light, the nobleman's expression seems to change from a firm, aristocratic sneer to a feral, monstrous snarl.
 
 Unbeknownst to the player, the visage stamped upon the *electrum coin* is the face of Strahd von Zarovich, the undead ruler of Barovia. The coin was minted long ago, but spirited away from Strahd's treasuries by a thief shortly before Barovia was lost to the mists. When it senses the presence of Death House, the coin lands on its edge, then begins rolling across the ground toward the house until it reaches the base of its steps.
@@ -65,7 +65,7 @@ The player who possesses the *electrum coin* should have strong, vivid reasons t
 
 When the player first approaches Strahd's treasury, the coin lands on its edge and rolls as far as it can toward the treasury's entrance, in the same way that it did upon sensing Death House.
 ## Healing—The Wolf's Tooth
-![[Wolf's Tooth.png]]
+![Wolf's Tooth.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Wolf's%20Tooth.png)
 A player seeking **healing** begins the campaign with a *wolf's tooth* coated with clear resin and mounted on a leather cord. The tooth seems to lengthen and sharpen on nights of the full moon, and calms its wearer's dreams when worn at night.
 
 Unbeknownst to the player, the tooth once belonged to a wolfir—a **werewolf** that served the fey goddess known as the Huntress before her gift of lycanthropy was twisted into a curse. The Huntress's holy place, the Forest Fane, dwells amidst the woodlands of Barovia, silently waiting to be restored. When it senses the presence of Death House, the tooth lengthens, glowing with silver moonlight, and tugs its cord in the direction of the house.
@@ -74,7 +74,7 @@ The player who possesses the *wolf's tooth* should have strong, vivid reasons to
 
 ***Developments.*** If the player shows the *wolf's tooth* to Kavan in [[Arc J - The Stolen Gem]] or to Elder Burebis in [[Arc R - Trials of the Mountain]], the tooth is recognized as an artifact and symbol of the Huntress. When the player first approaches the circle of stones at the Forest Fane in [[Arc T - The Three Fanes]], the tooth lengthens and glows with moonlight as it did upon sensing Death House.
 ## Duty—The Raven's Feather
-![[Raven's Feather.png]]
+![Raven's Feather.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Raven's%20Feather.png)
 A player seeking **duty** begins the campaign with a *raven's feather*, a small, black feather with soft, downy barbs. When held aloft before a storm, the feather seems to gently tremble, exuding the scent of cold rain and damp earth.
 
 Unbeknownst to the player, the feather once belonged to the **roc** of Mount Ghakis, a servant of the fey goddess known as the Seeker, whose Mountain Fane rests in the shadow of Mount Ghakis in Barovia. The roc once enjoyed disguising itself as a common raven, and shed this feather on one such occasion. When it senses the presence of Death House, the feather is swept away by an unseen and violent wind, the scent of rain and ozone  filling the air, before eventually landing on the house's threshold.
@@ -85,7 +85,7 @@ The player who possesses the *raven's feather* should have strong, vivid reasons
 
 When the player first enters the circle of standing stones at the Mountain Fane in [[Arc T - The Three Fanes]], the feather trembles and the air around it briefly grows thick with the scent of rain and ozone as it did upon sensing Death House. If the player shows the feather to the Roc of Mount Ghakis after consecrating the Mountain Fane in the same arc, the roc places the tip of its beak against the player's forehead as a sign of gratitude and approval before departing.
 ## Power—The Crumpled Page
-![[Crumpled Page.png]]
+![Crumpled Page.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Crumpled%20Page.png)
 A player seeking **power** begins the campaign with the *crumpled page*, an old, yellowed page that was torn from its book long ago. The page is written in strange and cryptic arcane runes; those few runes that can be decoded speak of a path that leads to immortality and untold power.
 
 Unbeknownst to the player, the page was taken from the library of Exethanter, a **lich** who dwells in the deepest sanctum of the Amber Temple in Barovia. When it senses the presence of Death House, the ink on the page glows with amber light, the runes reshaping themselves into a map that leads to the house.
@@ -94,7 +94,7 @@ The player who possesses the *crumpled page* should have strong, vivid reasons t
 
 ***Developments.*** When the player first approaches Exethanter's library in [[Arc S - A Sword of Sunlight]], the ink glows with amber light as it did upon sensing Death House, and the runes reshape themselves into a map of Exethanter's chambers and nearby access points. If the player shows the page to Exethanter after restoring his memories in the same arc, Exethanter grows warmer and friendlier toward that player.
 ## Ambition—The Tattered Banner
-![[Tattered Banner.png]]
+![Tattered Banner.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Tattered%20Banner.png)
 A player seeking **ambition** begins the campaign with the *tattered banner*, an old, ragged red banner bearing the heraldry of a raven in front of a shield. The raven's wings are spread wide, and the shield has the image of a castle's keep engraved into its top. Sometimes, when a Lawful-aligned creature holds the banner, a crimson light seems to glimmer from the peak of the castle's keep, and the sound of soldiers marching can be distantly heard.
 
 Unbeknownst to the player, the banner was once flown by the warlord Strahd von Zarovich in the days before he became a vampire and was trapped within the mists of Barovia. When it senses the presence of Death House, the distant sound of war-drums fills its holder's ears and the banner blows in an unseen wind, pulling toward the house's direction.
@@ -107,7 +107,7 @@ If the player shows the banner to the revenant at Tser Falls in [[Act I - Into t
 
 If the player shows the banner to Strahd, he regards it with fond thoughtfulness, but declines to elaborate on its significance. If the player shows the banner to Dr. Rudolph van Richten in **Arc M: Strahd's Enemy** or any Vistani, they immediately recognize it as the heraldry of Castle Ravenloft.
 ## Faith—The Sunrise Medallion
-![[Sunrise Medallion.png]]
+![Sunrise Medallion.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Sunrise%20Medallion.png)
 A player seeking **faith** begins the campaign with the *sunrise medallion*, a bronze disc engraved with the image of a rising sun. The disc glitters like gold when exposed to the light of the sunrise, and a Good-aligned creature that touches it feels a fleeting sense of reverence, righteousness, and peace.
 
 Unbeknownst to the player, the medallion once belonged to Sergei von Zarovich, the brother of Strahd von Zarovich and an acolyte of the Church of the Morninglord who was once expected to become its Most High Priest. When it senses the presence of Death House, the medallion shines with a warm, golden glow, the rays of sunlight emanating from the engraved sun pointing in the direction of the house.
@@ -116,7 +116,7 @@ The player who possesses the *sunrise medallion* should have strong, vivid reaso
 
 ***Developments.*** When the player first approaches St. Andral's Church in [[Arc D - St. Andral's Feast]], the *sunrise medallion* glows and shines in the direction of the church's doors. If the player shows the *sunrise medallion* to Father Donavich or Lucian, they recognize it as a symbol of the Church of the Morninglord and grow warmer and friendlier toward that player.
 ## Harmony—The Stone Crest
-![[Stone Crest.png]]
+![Stone Crest.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Stone%20Crest.png)
 A player seeking **harmony** begins the campaign with the *stone crest*, a flat, round stone engraved with the image of a three-pointed star. On the nights of the new moon, the star seems to glimmer with emerald light.
 
 Unbeknownst to the player, the crest once belonged to a spiritual leader among the First Folk, the people who first settled the land of Barovia long ago, and who have now divided into the Forest Folk (who are loyal to Strahd) and the Mountain Folk (who are not). The engravings upon it depict the symbols of the Seeker, the Weaver, and the Huntress—the three fey goddesses that the First Folk once called the *Rozana*, or Ladies Three. When it senses the presence of Death House, the crest emits a low hum and releases a scent of pine needles and earthy soil, which both grow stronger as the player approaches the house.
@@ -127,7 +127,7 @@ The player who possesses the *stone crest* should have strong, vivid reasons to 
 
 If the player shows the *stone crest* to Kavan in [[Arc J - The Stolen Gem]] or to Elder Burebis in [[Arc R - Trials of the Mountain]], the crest is recognized as an artifact and symbol of the Ladies of the Fanes. 
 ## Justice—The Broken Blade
-![[Broken Blade.png]]
+![Broken Blade.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Broken%20Blade.png)
 A player seeking **justice** begins the campaign with the *broken blade*, the shattered tip of an elven longsword. The blade is engraved with the sigil of a lion rampant, which seems to roar when the light of dusk touches it.
 
 Unbeknownst to the player, the blade once belonged to Erevan, a dusk elf prince. Erevan, a master bladesinger, practiced the style of the lion, which he also used as his personal sigil. However, Erevan refused to pay tribute to King Barov von Zarovich, a powerful warlord and the father of Strahd von Zarovich. 
