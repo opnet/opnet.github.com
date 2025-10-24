@@ -25,7 +25,7 @@ A player seeking **knowledge** begins the campaign with the *amber shard*, a sma
 The player who possesses the *amber shard* should have strong, vivid reasons to want to unlock its secrets and the magic that it possesses.
 
 ## Redemption—The Angel's Feather
-![Angel's Feather](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Angels%20Feather.png)
+![Angel's Feather](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Angel's%20Feather.png)
 A player seeking **redemption** begins the campaign with the *angel's feather*, a large, snow-white feather. When viewed beneath the light of the morning sun, the feather's barbs glimmer like gold.
 
 Unbeknownst to the player, the *angel's feather* formerly belonged to Ithuriel, a **deva** that serves the god Lathander, who is known to his followers as the Morninglord. Ithuriel is the true name of the Abbot, who dwells in the Abbey of Saint Markovia in Barovia. When it senses the presence of Death House, the feather is swept away by an unseen wind, its barbs glimmering with golden light, before eventually landing on the house's threshold.
@@ -34,7 +34,7 @@ The player who possesses the *angel's feather* should have strong, vivid reasons
 
 ***Developments.*** When the players first arrive at the Abbey in [[Arc I - The Walls of Krezk]] or [[Arc K - The Fallen Abbey]] the *angel's feather* glimmers and is swept away in the same way that it did upon sensing Death House, guiding the player toward the Abbot. The Abbot recognizes the feather as his own, but dismisses its importance.
 ## Family—The Wanderer's Scarf
-![Wanderer's Scarf.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Wanderer's Scarf.png)
+![Wanderer's Scarf.png](https://raw.githubusercontent.com/opnet/opnet.github.com/refs/heads/master/images/Wanderer's%20Scarf.png)
 A player seeking **family** begins the campaign with the *wanderer's scarf*, a multicolored scarf woven with complex patterns. The fabric is soft and warm, and is long enough to be worn around the neck or over one's head. When bright sunlight, moonlight, or starlight is allowed to pass through it, the patterns seem to shimmer and twist in eerie and beautiful ways.
 
 Unbeknownst to the player, the *wanderer's scarf* once belonged to a Vistana who left their caravan and settled down to marry the one they loved. The scarf was a parting gift from the caravan's leader—a reminder of the joys that the Vistana had experienced while traveling. When it senses the presence of Death House, the scarf is carried away by a warm, playful breeze, its patterns shifting and turning in the air, before eventually landing on the house's threshold.
