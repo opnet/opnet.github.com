@@ -369,6 +369,17 @@ The players do not recognize the name "Strahd von Zarovich."
 > Players who find the deed to Old Bonegrinder in the secret chest often come to the mistaken conclusion that looting the deed makes them the new owners of the mill. Such players are likely, as a result, to attempt to explore the windmill during [[Act I - Into the Mists/Arc C - Into the Valley]], triggering a conflict with the night hag coven and—through no fault of their own—a likely TPK. As such, the deed has been removed to help avoid this outcome.
 
 ## A2d. The Third Floor
+### Layout
+- Balcony looking over steps behind you
+- Walls on the left, center, and right, with a little alcove off to the right
+- A door on the left wall - [[#Nursemaid’s Suite]]
+- A door on the center - [[#Storage Room]]
+- A door on the left of the alcove - [[#Bathroom]]
+- Double doors on the right wall - [[#Master Suite]]
+- **_SECRET_**
+	- DC 12 perception - tiny hanging corpses from trees and worms in ground on oil lamps
+	- DC 15 - left wall has secret entrance to [[Attic]]
+
 As the players ascend the spiral stairs to the third floor, remind them that they can see down the center of the staircase all the way to the bottom floor.
 ### Balcony
 <span class="citation"><em>This scene takes place in Appendix B: Area 11.</em></span>
