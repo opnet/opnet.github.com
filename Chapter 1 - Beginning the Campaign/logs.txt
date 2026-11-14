@@ -1,0 +1,708 @@
+Aug 31, 2026 18:13:42.479 [12512] Debug — WebSocket: Performing handshake from origin http://127.0.0.1:32400
+Aug 31, 2026 18:13:42.479 [12512] Debug — Beginning read from WebSocket
+Aug 31, 2026 18:13:42.495 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /activities (16 live) #3c02 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:42.496 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /activities (16 live) #3c02 GZIP 0ms 350 bytes (pipelined: 14)
+Aug 31, 2026 18:13:42.533 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /web/js/chunk-5540-bb81b74c51b6e1207e61-plex-4.147.1-4ca0656.js (16 live) #3c14 GZIP Signed-in
+Aug 31, 2026 18:13:42.533 [10772] Debug — Request: [127.0.0.1:13670 (Loopback)] GET /web/js/chunk-261-52feec0f9d8b2ce0d4ec-plex-4.147.1-4ca0656.js (16 live) #3bf7 GZIP Signed-in
+Aug 31, 2026 18:13:42.533 [10772] Debug — [Req#3bf7] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-261-52feec0f9d8b2ce0d4ec-plex-4.147.1-4ca0656.js"
+Aug 31, 2026 18:13:42.533 [12512] Debug — [Req#3c14] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-5540-bb81b74c51b6e1207e61-plex-4.147.1-4ca0656.js"
+Aug 31, 2026 18:13:42.534 [12512] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-5540-bb81b74c51b6e1207e61-plex-4.147.1-4ca0656.js is 404643 (of total: 404643).
+Aug 31, 2026 18:13:42.534 [10772] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-261-52feec0f9d8b2ce0d4ec-plex-4.147.1-4ca0656.js is 7505 (of total: 7505).
+Aug 31, 2026 18:13:42.534 [27416] Debug — Completed: [127.0.0.1:13670] 200 GET /web/js/chunk-261-52feec0f9d8b2ce0d4ec-plex-4.147.1-4ca0656.js (16 live) #3bf7 GZIP 0ms 7505 bytes (pipelined: 11)
+Aug 31, 2026 18:13:42.535 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /web/js/chunk-5540-bb81b74c51b6e1207e61-plex-4.147.1-4ca0656.js (16 live) #3c14 GZIP 2ms 404643 bytes (pipelined: 15)
+Aug 31, 2026 18:13:42.557 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/start.mpd?hasMDE=1&path=%2Flibrary%2Fmetadata%2F5557&mediaIndex=0&partIndex=0&protocol=dash&fastSeek=1&directPlay=0&directStream=1&subtitleSize=100&audioBoost=100&location=lan&addDebugOverlay=0&autoAdjustQuality=0&directStreamAudio=0&mediaBufferSize=102400&session=u7qsebct0no2nxznlsmzo46g&subtitles=burn&Accept-Language=en (16 live) #3c36 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:42.558 [25028] Debug — [Req#3c36/Transcode] Found session GUID of u7qsebct0no2nxznlsmzo46g in session start.
+Aug 31, 2026 18:13:42.558 [25028] Debug — [Req#3c36/Transcode] TranscodeUniversalRequest: adapting profile with augmentation data: append-transcode-target-codec(type=videoProfile&context=streaming&videoCodec=h264%2Chevc&audioCodec=aac&protocol=dash)
+Aug 31, 2026 18:13:42.558 [25028] Debug — [Req#3c36/Transcode] TranscodeUniversalRequest: using augmented profile Web
+Aug 31, 2026 18:13:42.558 [25028] Debug — [Req#3c36/Transcode] Downloading document http://127.0.0.1:32400/library/metadata/5557?checkFiles=1&includeBandwidths=1&offset=-1&X-Plex-Incomplete-Segments=1&X-Plex-Session-Identifier=p2oynqa94xp1krof99r0cz9b
+Aug 31, 2026 18:13:42.562 [25028] Debug — [Req#3c36/Transcode] We're going to try to auto-select an audio stream for account 1.
+Aug 31, 2026 18:13:42.562 [25028] Debug — [Req#3c36/Transcode] Selecting best audio stream for part ID 7775 (language: )
+Aug 31, 2026 18:13:42.562 [25028] Debug — [Req#3c36/Transcode] We're going to try to auto-select a subtitle for account 1.
+Aug 31, 2026 18:13:42.562 [25028] Debug — [Req#3c36/Transcode] Audio Stream: 31318, Subtitle Stream: -1
+Aug 31, 2026 18:13:42.566 [25028] Debug — [Req#3c36/Transcode] Found session GUID of u7qsebct0no2nxznlsmzo46g in session start.
+Aug 31, 2026 18:13:42.566 [25028] Debug — [Req#3c36/Transcode] Cleaning directory for session u7qsebct0no2nxznlsmzo46g ()
+Aug 31, 2026 18:13:42.567 [25028] Debug — [Req#3c36/Transcode] Starting a transcode session u7qsebct0no2nxznlsmzo46g at offset -1.0 (state=3)
+Aug 31, 2026 18:13:42.568 [25028] Debug — [Req#3c36/Transcode] [Universal] Using local file path instead of URL: D:\Media\TV\Love is Blind - UK\Season 3\Love Is Blind UK S03E03 1080p WEB H264-DEFENESTRATE.mkv
+Aug 31, 2026 18:13:42.569 [25028] Debug — [Req#3c36/Transcode/JobRunner] Job running: set "FFMPEG_EXTERNAL_LIBS=\\\\?\\C\:\\Users\\opnet\\AppData\\Local\\Plex\ Media\ Server\\Codecs\\46f74ab-560174306fe167a5978a79dd-windows-x86_64\\" & set "X_PLEX_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" & "C:\Program Files\Plex\Plex Media Server\Plex Transcoder.exe" -codec:0 h264 -codec:1 eac3_mf -ss 0 -noaccurate_seek -analyzeduration 20000000 -probesize 20000000 -i "D:\Media\TV\Love is Blind - UK\Season 3\Love Is Blind UK S03E03 1080p WEB H264-DEFENESTRATE.mkv" -map 0:0 -codec:0 copy -filter_complex "[0:1] aresample=async=1:ochl='stereo':rematrix_maxval=0.000000dB:osr=48000[0]" -map [0] -metadata:s:1 language=eng -codec:1 aac_mf -b:1 256k -f dash -seg_duration 5 -dash_segment_type mp4 -init_seg_name init-stream$RepresentationID$.m4s -media_seg_name chunk-stream$RepresentationID$-$Number%05d$.m4s -window_size 5 -delete_removed false -skip_to_segment 1 -time_delta 0.0625 -manifest_name http://127.0.0.1:32400/video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/manifest?X-Plex-Http-Pipeline=infinite -avoid_negative_ts disabled -map_metadata -1 -map_chapters -1 dash -start_at_zero -copyts -vsync cfr -y -nostats -loglevel quiet -loglevel_plex error -progressurl http://127.0.0.1:32400/video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress
+Aug 31, 2026 18:13:42.569 [25028] Debug — [Req#3c36/Transcode/JobRunner] In directory: "C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a"
+Aug 31, 2026 18:13:42.575 [25028] Debug — [Req#3c36/Transcode/JobRunner] Jobs: Starting child process with pid 13240
+Aug 31, 2026 18:13:42.598 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=startup (17 live) #3c05 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.598 [19564] Debug — Completed: [127.0.0.1:15822] 204 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=startup (17 live) #3c05 0ms 203 bytes (pipelined: 1) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.601 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=startup (17 live) #3c82 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.601 [27416] Debug — Completed: [127.0.0.1:15822] 204 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=startup (17 live) #3c82 0ms 203 bytes (pipelined: 2) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.601 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=opening (17 live) #3c8b Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.601 [19564] Debug — Completed: [127.0.0.1:15822] 204 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=opening (17 live) #3c8b 0ms 203 bytes (pipelined: 3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.603 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=opened (17 live) #3c94 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.604 [19564] Debug — Completed: [127.0.0.1:15822] 204 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?status=opened (17 live) #3c94 0ms 203 bytes (pipelined: 4) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.604 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/stream?index=0&id=0&codec=h264&type=video (17 live) #3c9d Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.604 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/stream?index=0&id=0&codec=h264&type=video (17 live) #3c9d 0ms 195 bytes (pipelined: 5) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.604 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/stream?index=1&id=0&codec=eac3&type=audio (17 live) #3ca6 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.604 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/stream?index=1&id=0&codec=eac3&type=audio (17 live) #3ca6 0ms 195 bytes (pipelined: 6) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.622 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=0&id=0&codec=h264&type=video&profile=Main&width=1920&height=1080&interlaced=0&sar=1:1&level=40&frameRate=25.000&disp_default=1 (17 live) #3caf Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=0&id=0&codec=h264&type=video&profile=Main&width=1920&height=1080&interlaced=0&sar=1:1&level=40&frameRate=25.000&disp_default=1 (17 live) #3caf 0ms 195 bytes (pipelined: 7) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=1&id=0&codec=eac3&type=audio&language=eng&channels=6&layout=5.1%28side%29&sampleRate=48000&disp_default=1 (17 live) #3cb9 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=1&id=0&codec=eac3&type=audio&language=eng&channels=6&layout=5.1%28side%29&sampleRate=48000&disp_default=1 (17 live) #3cb9 0ms 195 bytes (pipelined: 8) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=2&id=0&codec=subrip&type=subtitle&language=eng (17 live) #3cc2 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=2&id=0&codec=subrip&type=subtitle&language=eng (17 live) #3cc2 0ms 195 bytes (pipelined: 9) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=3&id=0&codec=subrip&type=subtitle&language=eng (17 live) #3ccb Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.623 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=3&id=0&codec=subrip&type=subtitle&language=eng (17 live) #3ccb 0ms 195 bytes (pipelined: 10) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=4&id=0&codec=subrip&type=subtitle&language=ara (17 live) #3cd4 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=4&id=0&codec=subrip&type=subtitle&language=ara (17 live) #3cd4 0ms 195 bytes (pipelined: 11) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=5&id=0&codec=subrip&type=subtitle&language=por (17 live) #3cdd Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=5&id=0&codec=subrip&type=subtitle&language=por (17 live) #3cdd 0ms 195 bytes (pipelined: 12) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=6&id=0&codec=subrip&type=subtitle&language=hrv (17 live) #3ce6 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=6&id=0&codec=subrip&type=subtitle&language=hrv (17 live) #3ce6 0ms 195 bytes (pipelined: 13) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=7&id=0&codec=subrip&type=subtitle&language=ces (17 live) #3cef Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.624 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=7&id=0&codec=subrip&type=subtitle&language=ces (17 live) #3cef 0ms 195 bytes (pipelined: 14) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=8&id=0&codec=subrip&type=subtitle&language=dan (17 live) #3cf8 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=8&id=0&codec=subrip&type=subtitle&language=dan (17 live) #3cf8 0ms 195 bytes (pipelined: 15) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=9&id=0&codec=subrip&type=subtitle&language=nld (17 live) #3d01 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=9&id=0&codec=subrip&type=subtitle&language=nld (17 live) #3d01 0ms 195 bytes (pipelined: 16) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=10&id=0&codec=subrip&type=subtitle&language=spa (17 live) #3d0a Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=10&id=0&codec=subrip&type=subtitle&language=spa (17 live) #3d0a 0ms 195 bytes (pipelined: 17) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=11&id=0&codec=subrip&type=subtitle&language=fil (17 live) #3d13 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.625 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=11&id=0&codec=subrip&type=subtitle&language=fil (17 live) #3d13 0ms 195 bytes (pipelined: 18) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=12&id=0&codec=subrip&type=subtitle&language=fin (17 live) #3d1c Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=12&id=0&codec=subrip&type=subtitle&language=fin (17 live) #3d1c 0ms 195 bytes (pipelined: 19) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=13&id=0&codec=subrip&type=subtitle&language=fra (17 live) #3d25 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=13&id=0&codec=subrip&type=subtitle&language=fra (17 live) #3d25 0ms 195 bytes (pipelined: 20) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=14&id=0&codec=subrip&type=subtitle&language=deu (17 live) #3d2e Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=14&id=0&codec=subrip&type=subtitle&language=deu (17 live) #3d2e 0ms 195 bytes (pipelined: 21) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=15&id=0&codec=subrip&type=subtitle&language=ell (17 live) #3d37 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=15&id=0&codec=subrip&type=subtitle&language=ell (17 live) #3d37 0ms 195 bytes (pipelined: 22) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.626 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=16&id=0&codec=subrip&type=subtitle&language=heb (17 live) #3d40 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=16&id=0&codec=subrip&type=subtitle&language=heb (17 live) #3d40 0ms 195 bytes (pipelined: 23) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=17&id=0&codec=subrip&type=subtitle&language=hun (17 live) #3d49 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=17&id=0&codec=subrip&type=subtitle&language=hun (17 live) #3d49 0ms 195 bytes (pipelined: 24) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=18&id=0&codec=subrip&type=subtitle&language=ind (17 live) #3d52 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=18&id=0&codec=subrip&type=subtitle&language=ind (17 live) #3d52 0ms 195 bytes (pipelined: 25) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=19&id=0&codec=subrip&type=subtitle&language=ita (17 live) #3d5b Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=19&id=0&codec=subrip&type=subtitle&language=ita (17 live) #3d5b 0ms 195 bytes (pipelined: 26) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.627 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=20&id=0&codec=subrip&type=subtitle&language=jpn (17 live) #3d64 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=20&id=0&codec=subrip&type=subtitle&language=jpn (17 live) #3d64 0ms 195 bytes (pipelined: 27) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=21&id=0&codec=subrip&type=subtitle&language=kor (17 live) #3d6d Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=21&id=0&codec=subrip&type=subtitle&language=kor (17 live) #3d6d 0ms 195 bytes (pipelined: 28) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=22&id=0&codec=subrip&type=subtitle&language=msa (17 live) #3d76 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=22&id=0&codec=subrip&type=subtitle&language=msa (17 live) #3d76 0ms 195 bytes (pipelined: 29) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=23&id=0&codec=subrip&type=subtitle&language=nob (17 live) #3d7f Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.628 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=23&id=0&codec=subrip&type=subtitle&language=nob (17 live) #3d7f 0ms 195 bytes (pipelined: 30) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=24&id=0&codec=subrip&type=subtitle&language=pol (17 live) #3d88 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=24&id=0&codec=subrip&type=subtitle&language=pol (17 live) #3d88 0ms 195 bytes (pipelined: 31) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=25&id=0&codec=subrip&type=subtitle&language=por (17 live) #3d91 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=25&id=0&codec=subrip&type=subtitle&language=por (17 live) #3d91 0ms 195 bytes (pipelined: 32) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=26&id=0&codec=subrip&type=subtitle&language=ron (17 live) #3d9a Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=26&id=0&codec=subrip&type=subtitle&language=ron (17 live) #3d9a 0ms 195 bytes (pipelined: 33) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.629 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=27&id=0&codec=subrip&type=subtitle&language=rus (17 live) #3da3 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=27&id=0&codec=subrip&type=subtitle&language=rus (17 live) #3da3 0ms 195 bytes (pipelined: 34) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=28&id=0&codec=subrip&type=subtitle&language=zho (17 live) #3dac Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=28&id=0&codec=subrip&type=subtitle&language=zho (17 live) #3dac 0ms 195 bytes (pipelined: 35) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=29&id=0&codec=subrip&type=subtitle&language=spa (17 live) #3db4 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=29&id=0&codec=subrip&type=subtitle&language=spa (17 live) #3db4 0ms 195 bytes (pipelined: 36) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=30&id=0&codec=subrip&type=subtitle&language=swe (17 live) #3dbe Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.630 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=30&id=0&codec=subrip&type=subtitle&language=swe (17 live) #3dbe 0ms 195 bytes (pipelined: 37) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=31&id=0&codec=subrip&type=subtitle&language=tha (17 live) #3dc7 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=31&id=0&codec=subrip&type=subtitle&language=tha (17 live) #3dc7 0ms 195 bytes (pipelined: 38) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=32&id=0&codec=subrip&type=subtitle&language=zho (17 live) #3dd0 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=32&id=0&codec=subrip&type=subtitle&language=zho (17 live) #3dd0 0ms 195 bytes (pipelined: 39) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [12512] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=33&id=0&codec=subrip&type=subtitle&language=tur (17 live) #3ddf Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [27416] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=33&id=0&codec=subrip&type=subtitle&language=tur (17 live) #3ddf 0ms 195 bytes (pipelined: 40) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.631 [12512] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=34&id=0&codec=subrip&type=subtitle&language=ukr (17 live) #3de9 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.632 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=34&id=0&codec=subrip&type=subtitle&language=ukr (17 live) #3de9 0ms 195 bytes (pipelined: 41) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.632 [12512] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=35&id=0&codec=subrip&type=subtitle&language=vie (17 live) #3df2 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.632 [19564] Debug — Completed: [127.0.0.1:15822] 200 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress/streamDetail?index=35&id=0&codec=subrip&type=subtitle&language=vie (17 live) #3df2 0ms 195 bytes (pipelined: 42) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.634 [12512] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?duration=3995.360000 (17 live) #3dfb Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.634 [25028] Debug — [Req#3c36/Transcode] Started session successfully: u7qsebct0no2nxznlsmzo46g
+Aug 31, 2026 18:13:42.634 [27416] Debug — Completed: [127.0.0.1:15822] 204 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?duration=3995.360000 (17 live) #3dfb 0ms 203 bytes (pipelined: 43) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.634 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/start.mpd?hasMDE=1&path=%2Flibrary%2Fmetadata%2F5557&mediaIndex=0&partIndex=0&protocol=dash&fastSeek=1&directPlay=0&directStream=1&subtitleSize=100&audioBoost=100&location=lan&addDebugOverlay=0&autoAdjustQuality=0&directStreamAudio=0&mediaBufferSize=102400&session=u7qsebct0no2nxznlsmzo46g&subtitles=burn&Accept-Language=en (17 live) #3c36 GZIP 76ms 952 bytes (pipelined: 16)
+Aug 31, 2026 18:13:42.638 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /status/sessions (17 live) #3e13 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:42.638 [25028] Debug — [Req#3e13] [Now] Adding 4 sessions.
+Aug 31, 2026 18:13:42.641 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /status/sessions (17 live) #3e13 GZIP 3ms 2303 bytes (pipelined: 17)
+Aug 31, 2026 18:13:42.642 [25028] Debug — Request: [127.0.0.1:13670 (Loopback)] GET /status/sessions (17 live) #3c31 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:42.642 [25028] Debug — [Req#3c31] [Now] Adding 4 sessions.
+Aug 31, 2026 18:13:42.645 [27416] Debug — Completed: [127.0.0.1:13670] 200 GET /status/sessions (17 live) #3c31 GZIP 3ms 2303 bytes (pipelined: 12)
+Aug 31, 2026 18:13:42.645 [12512] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/header (17 live) #3bea GZIP Signed-in
+Aug 31, 2026 18:13:42.645 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/header (17 live) #3e20 GZIP Signed-in
+Aug 31, 2026 18:13:42.675 [10772] Debug — Request: [127.0.0.1:15822 (Loopback)] PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?width=1920&height=1080 (17 live) #3e06 Signed-in Token (joelkl3) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.675 [19564] Debug — Completed: [127.0.0.1:15822] 206 PUT /video/:/transcode/session/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a/progress?width=1920&height=1080 (17 live) #3e06 0ms 355 bytes (pipelined: 44) (range: bytes=0-) 
+Aug 31, 2026 18:13:42.778 [12500] Debug — [Req#3c7d/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 0 (0)
+Aug 31, 2026 18:13:42.861 [25028] Debug — [Req#3e20/Transcode/u7qsebct0no2nxznlsmzo46g] Exists("C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s") => 1
+Aug 31, 2026 18:13:42.861 [12512] Debug — [Req#3bea/Transcode/u7qsebct0no2nxznlsmzo46g] Exists("C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s") => 1
+Aug 31, 2026 18:13:42.862 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s is 762 (of total: 762).
+Aug 31, 2026 18:13:42.862 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s is 834 (of total: 834).
+Aug 31, 2026 18:13:42.862 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/header (17 live) #3e20 GZIP 216ms 762 bytes (pipelined: 18)
+Aug 31, 2026 18:13:42.862 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/header (17 live) #3bea GZIP 216ms 834 bytes (pipelined: 6)
+Aug 31, 2026 18:13:42.879 [12512] Debug — [Req#3e45/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 1 (1)
+Aug 31, 2026 18:13:42.884 [12512] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/0.m4s (17 live) #3e58 GZIP Signed-in
+Aug 31, 2026 18:13:42.884 [12512] Debug — [Req#3e58/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 0 from session.
+Aug 31, 2026 18:13:42.884 [12512] Debug — [Req#3e58/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 0 from session
+Aug 31, 2026 18:13:42.884 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00001.m4s is 162313 (of total: 162313).
+Aug 31, 2026 18:13:42.884 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/0.m4s (17 live) #3e56 GZIP Signed-in
+Aug 31, 2026 18:13:42.884 [25028] Debug — [Req#3e56/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 0 from session.
+Aug 31, 2026 18:13:42.884 [25028] Debug — [Req#3e56/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 0 from session
+Aug 31, 2026 18:13:42.885 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00001.m4s is 1409751 (of total: 1409751).
+Aug 31, 2026 18:13:42.885 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/0.m4s (17 live) #3e58 GZIP 1ms 162313 bytes (pipelined: 7)
+Aug 31, 2026 18:13:42.891 [25028] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/1.m4s (17 live) #3e8c GZIP Signed-in
+Aug 31, 2026 18:13:42.891 [25028] Debug — [Req#3e8c/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 1 from session.
+Aug 31, 2026 18:13:42.891 [25028] Debug — [Req#3e8c/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 1 from session
+Aug 31, 2026 18:13:42.891 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00002.m4s is 161815 (of total: 161815).
+Aug 31, 2026 18:13:42.891 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/0.m4s (17 live) #3e56 GZIP 7ms 1409751 bytes (pipelined: 19)
+Aug 31, 2026 18:13:42.892 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/1.m4s (17 live) #3e8c GZIP 1ms 161815 bytes (pipelined: 8)
+Aug 31, 2026 18:13:42.905 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/2.m4s (17 live) #3e9d GZIP Signed-in
+Aug 31, 2026 18:13:42.905 [25028] Debug — [Req#3e9d/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 2 from session.
+Aug 31, 2026 18:13:42.908 [12512] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/1.m4s (17 live) #3ea6 GZIP Signed-in
+Aug 31, 2026 18:13:42.909 [12512] Debug — [Req#3ea6/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 1 from session.
+Aug 31, 2026 18:13:42.909 [12512] Debug — [Req#3ea6/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 1 from session
+Aug 31, 2026 18:13:42.909 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00002.m4s is 3469911 (of total: 3469911).
+Aug 31, 2026 18:13:42.987 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/1.m4s (17 live) #3ea6 GZIP 78ms 3469911 bytes (pipelined: 9)
+Aug 31, 2026 18:13:42.989 [12512] Debug — [Req#3e65/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 2 (2)
+Aug 31, 2026 18:13:43.004 [12512] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/2.m4s (17 live) #3ec3 GZIP Signed-in
+Aug 31, 2026 18:13:43.004 [12512] Debug — [Req#3ec3/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 2 from session.
+Aug 31, 2026 18:13:43.004 [12512] Debug — [Req#3ec3/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 2 from session
+Aug 31, 2026 18:13:43.004 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00003.m4s is 4020947 (of total: 4020947).
+Aug 31, 2026 18:13:43.007 [25028] Debug — [Req#3e9d/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 2 from session
+Aug 31, 2026 18:13:43.007 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00003.m4s is 187769 (of total: 187769).
+Aug 31, 2026 18:13:43.008 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/2.m4s (17 live) #3e9d GZIP 102ms 187769 bytes (pipelined: 20)
+Aug 31, 2026 18:13:43.014 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/2.m4s (17 live) #3ec3 GZIP 10ms 4020947 bytes (pipelined: 10)
+Aug 31, 2026 18:13:43.068 [25028] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/3.m4s (17 live) #3eec GZIP Signed-in
+Aug 31, 2026 18:13:43.068 [25028] Debug — [Req#3eec/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 3 from session.
+Aug 31, 2026 18:13:43.072 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/3.m4s (17 live) #3ee7 GZIP Signed-in
+Aug 31, 2026 18:13:43.072 [12512] Debug — [Req#3ee7/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 3 from session.
+Aug 31, 2026 18:13:43.086 [12500] Debug — [Req#3ec8/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 3 (3)
+Aug 31, 2026 18:13:43.181 [25028] Debug — [Req#3eec/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 3 from session
+Aug 31, 2026 18:13:43.181 [12512] Debug — [Req#3ee7/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 3 from session
+Aug 31, 2026 18:13:43.181 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00004.m4s is 136126 (of total: 136126).
+Aug 31, 2026 18:13:43.181 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00004.m4s is 3643780 (of total: 3643780).
+Aug 31, 2026 18:13:43.182 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/3.m4s (17 live) #3eec GZIP 113ms 136126 bytes (pipelined: 11)
+Aug 31, 2026 18:13:43.189 [12512] Debug — [Req#3f01/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 4 (4)
+Aug 31, 2026 18:13:43.205 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/3.m4s (17 live) #3ee7 GZIP 133ms 3643780 bytes (pipelined: 21)
+Aug 31, 2026 18:13:43.213 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/4.m4s (17 live) #3f25 GZIP Signed-in
+Aug 31, 2026 18:13:43.213 [12512] Debug — [Req#3f25/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 4 from session.
+Aug 31, 2026 18:13:43.213 [12512] Debug — [Req#3f25/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 4 from session
+Aug 31, 2026 18:13:43.214 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00005.m4s is 187945 (of total: 187945).
+Aug 31, 2026 18:13:43.215 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/4.m4s (17 live) #3f25 GZIP 1ms 187945 bytes (pipelined: 22)
+Aug 31, 2026 18:13:43.218 [12512] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/4.m4s (17 live) #3f1a GZIP Signed-in
+Aug 31, 2026 18:13:43.218 [12512] Debug — [Req#3f1a/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 4 from session.
+Aug 31, 2026 18:13:43.218 [12512] Debug — [Req#3f1a/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 4 from session
+Aug 31, 2026 18:13:43.218 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00005.m4s is 4251512 (of total: 4251512).
+Aug 31, 2026 18:13:43.227 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/5.m4s (17 live) #3f3a GZIP Signed-in
+Aug 31, 2026 18:13:43.227 [12512] Debug — [Req#3f3a/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 5 from session.
+Aug 31, 2026 18:13:43.232 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/4.m4s (17 live) #3f1a GZIP 13ms 4251512 bytes (pipelined: 12)
+Aug 31, 2026 18:13:43.244 [25028] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/5.m4s (17 live) #3f57 GZIP Signed-in
+Aug 31, 2026 18:13:43.244 [25028] Debug — [Req#3f57/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 5 from session.
+Aug 31, 2026 18:13:43.274 [12500] Debug — [Req#3f1f/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 5 (5)
+Aug 31, 2026 18:13:43.337 [12512] Debug — [Req#3f3a/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 5 from session
+Aug 31, 2026 18:13:43.338 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00006.m4s is 135990 (of total: 135990).
+Aug 31, 2026 18:13:43.338 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/5.m4s (17 live) #3f3a GZIP 111ms 135990 bytes (pipelined: 23)
+Aug 31, 2026 18:13:43.342 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/6.m4s (17 live) #3f74 GZIP Signed-in
+Aug 31, 2026 18:13:43.342 [12512] Debug — [Req#3f74/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 6 from session.
+Aug 31, 2026 18:13:43.353 [25028] Debug — [Req#3f57/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 5 from session
+Aug 31, 2026 18:13:43.353 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00006.m4s is 2286630 (of total: 2286630).
+Aug 31, 2026 18:13:43.358 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/5.m4s (17 live) #3f57 GZIP 114ms 2286630 bytes (pipelined: 13)
+Aug 31, 2026 18:13:43.365 [25028] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/6.m4s (17 live) #3f88 GZIP Signed-in
+Aug 31, 2026 18:13:43.365 [25028] Debug — [Req#3f88/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 6 from session.
+Aug 31, 2026 18:13:43.401 [12500] Debug — [Req#3f64/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 6 (6)
+Aug 31, 2026 18:13:43.448 [12512] Debug — [Req#3f74/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 6 from session
+Aug 31, 2026 18:13:43.449 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00007.m4s is 194218 (of total: 194218).
+Aug 31, 2026 18:13:43.449 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/6.m4s (17 live) #3f74 GZIP 107ms 194218 bytes (pipelined: 24)
+Aug 31, 2026 18:13:43.453 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/7.m4s (17 live) #3fa4 GZIP Signed-in
+Aug 31, 2026 18:13:43.453 [12512] Debug — [Req#3fa4/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 7 from session.
+Aug 31, 2026 18:13:43.480 [25028] Debug — [Req#3f88/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 6 from session
+Aug 31, 2026 18:13:43.481 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00007.m4s is 4124140 (of total: 4124140).
+Aug 31, 2026 18:13:43.488 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/6.m4s (18 live) #3f88 GZIP 123ms 4124140 bytes (pipelined: 14)
+Aug 31, 2026 18:13:43.498 [19564] Debug — [Req#3f95/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 7 (7)
+Aug 31, 2026 18:13:43.501 [25028] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/7.m4s (17 live) #3fba GZIP Signed-in
+Aug 31, 2026 18:13:43.501 [25028] Debug — [Req#3fba/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 7 from session.
+Aug 31, 2026 18:13:43.501 [25028] Debug — [Req#3fba/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 7 from session
+Aug 31, 2026 18:13:43.501 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00008.m4s is 2796053 (of total: 2796053).
+Aug 31, 2026 18:13:43.526 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/7.m4s (17 live) #3fba GZIP 25ms 2796053 bytes (pipelined: 15)
+Aug 31, 2026 18:13:43.556 [25028] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/8.m4s (17 live) #3fd4 GZIP Signed-in
+Aug 31, 2026 18:13:43.556 [25028] Debug — [Req#3fd4/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 8 from session.
+Aug 31, 2026 18:13:43.560 [12512] Debug — [Req#3fa4/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 7 from session
+Aug 31, 2026 18:13:43.560 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00008.m4s is 129054 (of total: 129054).
+Aug 31, 2026 18:13:43.561 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/7.m4s (17 live) #3fa4 GZIP 107ms 129054 bytes (pipelined: 25)
+Aug 31, 2026 18:13:43.567 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/8.m4s (17 live) #3ff0 GZIP Signed-in
+Aug 31, 2026 18:13:43.567 [12512] Debug — [Req#3ff0/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 8 from session.
+Aug 31, 2026 18:13:43.622 [11784] Debug — [Req#3fb1/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 8 (8)
+Aug 31, 2026 18:13:43.669 [25028] Debug — [Req#3fd4/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 8 from session
+Aug 31, 2026 18:13:43.669 [12512] Debug — [Req#3ff0/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 8 from session
+Aug 31, 2026 18:13:43.670 [25028] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00009.m4s is 4036642 (of total: 4036642).
+Aug 31, 2026 18:13:43.670 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00009.m4s is 194914 (of total: 194914).
+Aug 31, 2026 18:13:43.670 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/8.m4s (17 live) #3ff0 GZIP 103ms 194914 bytes (pipelined: 26)
+Aug 31, 2026 18:13:43.679 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/9.m4s (17 live) #4013 GZIP Signed-in
+Aug 31, 2026 18:13:43.679 [12512] Debug — [Req#4013/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 9 from session.
+Aug 31, 2026 18:13:43.683 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/8.m4s (17 live) #3fd4 GZIP 127ms 4036642 bytes (pipelined: 16)
+Aug 31, 2026 18:13:43.694 [25028] Debug — [Req#3ffd/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 9 (9)
+Aug 31, 2026 18:13:43.705 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/9.m4s (17 live) #4021 GZIP Signed-in
+Aug 31, 2026 18:13:43.705 [10772] Debug — [Req#4021/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 9 from session.
+Aug 31, 2026 18:13:43.705 [10772] Debug — [Req#4021/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 9 from session
+Aug 31, 2026 18:13:43.705 [10772] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00010.m4s is 1933434 (of total: 1933434).
+Aug 31, 2026 18:13:43.709 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/9.m4s (17 live) #4021 GZIP 3ms 1933434 bytes (pipelined: 17)
+Aug 31, 2026 18:13:43.716 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/10.m4s (17 live) #403c GZIP Signed-in
+Aug 31, 2026 18:13:43.717 [10772] Debug — [Req#403c/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 10 from session.
+Aug 31, 2026 18:13:43.780 [12512] Debug — [Req#4013/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 9 from session
+Aug 31, 2026 18:13:43.781 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00010.m4s is 128863 (of total: 128863).
+Aug 31, 2026 18:13:43.781 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/9.m4s (17 live) #4013 GZIP 102ms 128863 bytes (pipelined: 27)
+Aug 31, 2026 18:13:43.788 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/10.m4s (17 live) #4054 GZIP Signed-in
+Aug 31, 2026 18:13:43.788 [12512] Debug — [Req#4054/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 10 from session.
+Aug 31, 2026 18:13:43.812 [25028] Debug — [Req#4026/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 10 (10)
+Aug 31, 2026 18:13:43.827 [10772] Debug — [Req#403c/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 10 from session
+Aug 31, 2026 18:13:43.828 [10772] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00011.m4s is 2677395 (of total: 2677395).
+Aug 31, 2026 18:13:43.835 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/10.m4s (17 live) #403c GZIP 118ms 2677395 bytes (pipelined: 18)
+Aug 31, 2026 18:13:43.842 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/11.m4s (17 live) #406e GZIP Signed-in
+Aug 31, 2026 18:13:43.842 [10772] Debug — [Req#406e/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 11 from session.
+Aug 31, 2026 18:13:43.885 [25028] Debug — [Req#4060/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 11 (11)
+Aug 31, 2026 18:13:43.890 [12512] Debug — [Req#4054/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 10 from session
+Aug 31, 2026 18:13:43.890 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00011.m4s is 194090 (of total: 194090).
+Aug 31, 2026 18:13:43.891 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/10.m4s (17 live) #4054 GZIP 103ms 194090 bytes (pipelined: 28)
+Aug 31, 2026 18:13:43.903 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/11.m4s (17 live) #408a GZIP Signed-in
+Aug 31, 2026 18:13:43.903 [12512] Debug — [Req#408a/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 11 from session.
+Aug 31, 2026 18:13:43.903 [12512] Debug — [Req#408a/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 11 from session
+Aug 31, 2026 18:13:43.904 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00012.m4s is 130428 (of total: 130428).
+Aug 31, 2026 18:13:43.904 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/11.m4s (17 live) #408a GZIP 1ms 130428 bytes (pipelined: 29)
+Aug 31, 2026 18:13:43.910 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/12.m4s (17 live) #409f GZIP Signed-in
+Aug 31, 2026 18:13:43.910 [12512] Debug — [Req#409f/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 12 from session.
+Aug 31, 2026 18:13:43.953 [10772] Debug — [Req#406e/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 11 from session
+Aug 31, 2026 18:13:43.954 [10772] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00012.m4s is 2998577 (of total: 2998577).
+Aug 31, 2026 18:13:43.965 [27416] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/11.m4s (17 live) #406e GZIP 123ms 2998577 bytes (pipelined: 19)
+Aug 31, 2026 18:13:43.973 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/12.m4s (17 live) #40b4 GZIP Signed-in
+Aug 31, 2026 18:13:43.973 [10772] Debug — [Req#40b4/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 12 from session.
+Aug 31, 2026 18:13:44.001 [25028] Debug — [Req#407c/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 12 (12)
+Aug 31, 2026 18:13:44.016 [12512] Debug — [Req#409f/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 12 from session
+Aug 31, 2026 18:13:44.017 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00013.m4s is 170143 (of total: 170143).
+Aug 31, 2026 18:13:44.017 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/12.m4s (17 live) #409f GZIP 107ms 170143 bytes (pipelined: 30)
+Aug 31, 2026 18:13:44.035 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/13.m4s (17 live) #40d0 GZIP Signed-in
+Aug 31, 2026 18:13:44.035 [12512] Debug — [Req#40d0/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 13 from session.
+Aug 31, 2026 18:13:44.077 [10772] Debug — [Req#40b4/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 12 from session
+Aug 31, 2026 18:13:44.078 [10772] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00013.m4s is 3080194 (of total: 3080194).
+Aug 31, 2026 18:13:44.085 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/12.m4s (17 live) #40b4 GZIP 111ms 3080194 bytes (pipelined: 20)
+Aug 31, 2026 18:13:44.096 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/13.m4s (18 live) #40e5 GZIP Signed-in
+Aug 31, 2026 18:13:44.096 [10772] Debug — [Req#40e5/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 13 from session.
+Aug 31, 2026 18:13:44.109 [25028] Debug — [Req#40c2/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 13 (13)
+Aug 31, 2026 18:13:44.139 [12512] Debug — [Req#40d0/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 13 from session
+Aug 31, 2026 18:13:44.140 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00014.m4s is 153504 (of total: 153504).
+Aug 31, 2026 18:13:44.141 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/13.m4s (17 live) #40d0 GZIP 105ms 153504 bytes (pipelined: 31)
+Aug 31, 2026 18:13:44.146 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/14.m4s (17 live) #4100 GZIP Signed-in
+Aug 31, 2026 18:13:44.146 [12512] Debug — [Req#4100/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 14 from session.
+Aug 31, 2026 18:13:44.202 [10772] Debug — [Req#40e5/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 13 from session
+Aug 31, 2026 18:13:44.202 [10772] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00014.m4s is 3323615 (of total: 3323615).
+Aug 31, 2026 18:13:44.209 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/13.m4s (17 live) #40e5 GZIP 113ms 3323615 bytes (pipelined: 21)
+Aug 31, 2026 18:13:44.212 [10772] Debug — [Req#40ea/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 14 (14)
+Aug 31, 2026 18:13:44.220 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/14.m4s (17 live) #4117 GZIP Signed-in
+Aug 31, 2026 18:13:44.220 [10772] Debug — [Req#4117/Transcode/u7qsebct0no2nxznlsmzo46g] Asked for segment 14 from session.
+Aug 31, 2026 18:13:44.220 [10772] Debug — [Req#4117/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 14 from session
+Aug 31, 2026 18:13:44.221 [10772] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream0.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream0-00015.m4s is 3574026 (of total: 3574026).
+Aug 31, 2026 18:13:44.235 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/0/14.m4s (17 live) #4117 GZIP 14ms 3574026 bytes (pipelined: 22)
+Aug 31, 2026 18:13:44.249 [12512] Debug — [Req#4100/Transcode/u7qsebct0no2nxznlsmzo46g] Returning segment 14 from session
+Aug 31, 2026 18:13:44.249 [12512] Debug — Content-Length of C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\init-stream1.m4s,C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-u7qsebct0no2nxznlsmzo46g-cee56888-e46d-40f9-9065-ceb6c4faf67a\chunk-stream1-00015.m4s is 178118 (of total: 178118).
+Aug 31, 2026 18:13:44.249 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/session/u7qsebct0no2nxznlsmzo46g/1/14.m4s (17 live) #4100 GZIP 103ms 178118 bytes (pipelined: 32)
+Aug 31, 2026 18:13:44.312 [12512] Debug — [Req#411c/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 15 (15)
+Aug 31, 2026 18:13:44.422 [12512] Debug — [Req#4146/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 16 (16)
+Aug 31, 2026 18:13:44.533 [12500] Debug — [Req#4153/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 17 (17)
+Aug 31, 2026 18:13:44.659 [11784] Debug — [Req#4159/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 18 (18)
+Aug 31, 2026 18:13:44.740 [11784] Debug — [Req#4160/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 19 (19)
+Aug 31, 2026 18:13:44.848 [11784] Debug — [Req#4168/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 20 (20)
+Aug 31, 2026 18:13:44.957 [12500] Debug — [Req#4170/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 21 (21)
+Aug 31, 2026 18:13:45.068 [12500] Debug — [Req#4176/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 22 (22)
+Aug 31, 2026 18:13:45.160 [12500] Debug — [Req#417d/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 23 (23)
+Aug 31, 2026 18:13:45.285 [10772] Debug — [Req#4184/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 24 (24)
+Aug 31, 2026 18:13:45.356 [10772] Debug — [Req#418c/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 25 (25)
+Aug 31, 2026 18:13:45.461 [10772] Debug — [Req#4192/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 26 (26)
+Aug 31, 2026 18:13:45.551 [12512] Debug — [Req#419a/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 27 (27)
+Aug 31, 2026 18:13:45.652 [12512] Debug — [Req#41a1/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 28 (28)
+Aug 31, 2026 18:13:45.679 [12512] Debug — [Req#418a/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Session u7qsebct0no2nxznlsmzo46g (4) is throttling
+Aug 31, 2026 18:13:45.679 [12512] Debug — [Req#41af/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Throttle - Going into sloth mode.
+Aug 31, 2026 18:13:45.946 [12512] Debug — [Req#41a8/Transcode/uwmdpnnaiycn4joj0lbbfkf5/b1ed0504-0df4-427a-80fe-1514651c244a] Transcoder segment range: 0 - 89 (89)
+Aug 31, 2026 18:13:48.540 [19564] Debug — WebSocket: client initiated close
+Aug 31, 2026 18:13:48.541 [27416] Debug — NotificationStream: Removing because of close
+Aug 31, 2026 18:13:48.541 [19564] Debug — handleStreamRead code 2: End of file
+Aug 31, 2026 18:13:48.541 [19564] Debug — Completed after connection close: [127.0.0.1:58729] -3 GET /:/websockets/notifications?filters=log (17 live) #3a0a GZIP 23056ms 138480 bytes
+Aug 31, 2026 18:13:50.760 [12512] Debug — [Req#41bb/Transcode/tnhnbulvzfri41menayz6xqq/7e1605cc-477c-4d1c-842c-d8999b5c43da] Transcoder segment range: 0 - 33 (33)
+Aug 31, 2026 18:13:52.241 [11784] Debug — [Req#4223/Transcode/uwmdpnnaiycn4joj0lbbfkf5/b1ed0504-0df4-427a-80fe-1514651c244a] Transcoder segment range: 0 - 90 (90)
+Aug 31, 2026 18:13:52.448 [11784] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (16 live) #413f GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:52.448 [11784] Debug — [Req#413f] Client [5825izoyn1wlu1tluztvd9fr] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:13:52.448 [11784] Debug — [Req#413f] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:13:52.448 [11784] Debug — [Req#413f] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:13:52.448 [11784] Debug — [Req#413f] [Now] Profile is Web
+Aug 31, 2026 18:13:52.448 [11784] Debug — [Req#413f] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:13:52.448 [11784] Debug — [Req#413f] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:13:52.449 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (16 live) #413f GZIP 1ms 758 bytes (pipelined: 33)
+Aug 31, 2026 18:13:52.768 [10772] Debug — Request: [127.0.0.1:23650 (Loopback)] GET /web/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.css (16 live) #4132 GZIP Signed-in
+Aug 31, 2026 18:13:52.768 [11784] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /web/js/chunk-9769-b7e0256d97b09847c163-plex-4.147.1-4ca0656.js (16 live) #4258 GZIP Signed-in
+Aug 31, 2026 18:13:52.768 [10772] Debug — [Req#4132] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.css"
+Aug 31, 2026 18:13:52.768 [11784] Debug — [Req#4258] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-9769-b7e0256d97b09847c163-plex-4.147.1-4ca0656.js"
+Aug 31, 2026 18:13:52.768 [12500] Debug — Request: [127.0.0.1:13670 (Loopback)] GET /web/js/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.js (16 live) #3e2d GZIP Signed-in
+Aug 31, 2026 18:13:52.768 [10772] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.css is 17711 (of total: 17711).
+Aug 31, 2026 18:13:52.768 [11784] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-9769-b7e0256d97b09847c163-plex-4.147.1-4ca0656.js is 45612 (of total: 45612).
+Aug 31, 2026 18:13:52.768 [12500] Debug — [Req#3e2d] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.js"
+Aug 31, 2026 18:13:52.768 [19564] Debug — Completed: [127.0.0.1:23650] 200 GET /web/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.css (16 live) #4132 GZIP 0ms 17711 bytes (pipelined: 23)
+Aug 31, 2026 18:13:52.768 [12500] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.js is 84147 (of total: 84147).
+Aug 31, 2026 18:13:52.768 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /web/js/chunk-9769-b7e0256d97b09847c163-plex-4.147.1-4ca0656.js (16 live) #4258 GZIP 0ms 45612 bytes (pipelined: 34)
+Aug 31, 2026 18:13:52.769 [19564] Debug — Completed: [127.0.0.1:13670] 200 GET /web/js/chunk-3126-92247d220836cc51bcab-plex-4.147.1-4ca0656.js (16 live) #3e2d GZIP 0ms 84147 bytes (pipelined: 13)
+Aug 31, 2026 18:13:52.769 [12500] Debug — Request: [127.0.0.1:17244 (Loopback)] GET /web/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.css (18 live) #423e GZIP Signed-in
+Aug 31, 2026 18:13:52.769 [11784] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /web/js/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.js (18 live) #4273 GZIP Signed-in
+Aug 31, 2026 18:13:52.769 [11784] Debug — [Req#4273] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.js"
+Aug 31, 2026 18:13:52.769 [12500] Debug — [Req#423e] Final path: "C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.css"
+Aug 31, 2026 18:13:52.770 [12500] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.css is 3317 (of total: 3317).
+Aug 31, 2026 18:13:52.770 [11784] Debug — Content-Length of C:\Program Files\Plex\Plex Media Server\Resources\Plug-ins-f737b826c\WebClient.bundle\Contents\Resources/js/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.js is 36351 (of total: 36351).
+Aug 31, 2026 18:13:52.770 [27416] Debug — Completed: [127.0.0.1:17244] 200 GET /web/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.css (18 live) #423e GZIP 0ms 3317 bytes (pipelined: 1)
+Aug 31, 2026 18:13:52.770 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /web/js/chunk-2622-2cc9649a4c62b3431337-plex-4.147.1-4ca0656.js (18 live) #4273 GZIP 0ms 36351 bytes (pipelined: 1)
+Aug 31, 2026 18:13:52.811 [11784] Debug — Request: [127.0.0.1:13670 (Loopback)] GET /library/sections/3/all?type=2&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (18 live) #4276 Page 0-49 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:52.811 [11784] Error — [Req#4276] Unknown metadata type: folder
+Aug 31, 2026 18:13:52.811 [11784] Debug — [Req#4276] Setting container serialization range to [0, 49] (total=-1)
+Aug 31, 2026 18:13:52.814 [12500] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /library/sections/3/all?type=2&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (18 live) #428b Page 0-49 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:52.814 [12500] Error — [Req#428b] Unknown metadata type: folder
+Aug 31, 2026 18:13:52.814 [12500] Debug — [Req#428b] Setting container serialization range to [0, 49] (total=-1)
+Aug 31, 2026 18:13:52.816 [19564] Debug — Completed: [127.0.0.1:13670] 200 GET /library/sections/3/all?type=2&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (18 live) #4276 GZIP Page 0-49 5ms 6393 bytes (pipelined: 14)
+Aug 31, 2026 18:13:52.820 [19564] Debug — Completed: [127.0.0.1:44841] 200 GET /library/sections/3/all?type=2&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (17 live) #428b GZIP Page 0-49 6ms 6393 bytes (pipelined: 2)
+Aug 31, 2026 18:13:52.852 [12500] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /library/sections/3/firstCharacter?sort=titleSort&includeCollections=1&includeExternalMedia=1 (17 live) #429e GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:52.852 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /library/sections/3/firstCharacter?sort=titleSort&includeCollections=1&includeExternalMedia=1 (17 live) #429e GZIP 0ms 628 bytes (pipelined: 3)
+Aug 31, 2026 18:13:53.206 [12512] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (17 live) #42a3 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:53.207 [12512] Debug — [Req#42a3] Client [p2oynqa94xp1krof99r0cz9b] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:13:53.207 [12512] Debug — [Req#42a3] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:13:53.207 [12512] Debug — [Req#42a3] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:13:53.207 [12512] Debug — [Req#42a3] [Now] Profile is Web
+Aug 31, 2026 18:13:53.207 [12512] Debug — [Req#42a3] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:13:53.207 [12512] Debug — [Req#42a3] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:13:53.208 [19564] Debug — Completed: [127.0.0.1:44841] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (17 live) #42a3 GZIP 1ms 759 bytes (pipelined: 4)
+Aug 31, 2026 18:13:53.226 [12512] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /status/sessions (17 live) #42c5 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:53.226 [12512] Debug — [Req#42c5] [Now] Adding 4 sessions.
+Aug 31, 2026 18:13:53.231 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /status/sessions (17 live) #42c5 GZIP 4ms 2416 bytes (pipelined: 5)
+Aug 31, 2026 18:13:53.231 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /status/sessions (17 live) #426d GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:53.232 [12512] Debug — [Req#426d] [Now] Adding 4 sessions.
+Aug 31, 2026 18:13:53.236 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /status/sessions (17 live) #426d GZIP 4ms 2416 bytes (pipelined: 35)
+Aug 31, 2026 18:13:55.635 [12500] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /library/metadata/5549?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (17 live) #42d3 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:55.637 [12500] Debug — [Req#42d3] Activity: registered new activity b1d7e1e5-cf9f-4249-b862-a4d036cd69bc - "Refreshing"
+Aug 31, 2026 18:13:55.637 [23328] Debug — [Req#42d3] Activity: updated activity b1d7e1e5-cf9f-4249-b862-a4d036cd69bc - completed 0.0% - Refreshing
+Aug 31, 2026 18:13:55.637 [23328] Debug — [Req#42d3] Activity: updated activity b1d7e1e5-cf9f-4249-b862-a4d036cd69bc - completed 33.0% - Refreshing
+Aug 31, 2026 18:13:55.638 [23328] Debug — [Req#42d3] Activity: updated activity b1d7e1e5-cf9f-4249-b862-a4d036cd69bc - completed 66.0% - Refreshing
+Aug 31, 2026 18:13:55.638 [12500] Debug — There were 1 top-level paths for Love is Blind: UK.
+Aug 31, 2026 18:13:55.638 [23328] Debug — [Req#42d3] Activity: Ended activity b1d7e1e5-cf9f-4249-b862-a4d036cd69bc.
+Aug 31, 2026 18:13:55.646 [12500] Debug — We're going to try to auto-select an audio stream for account 1.
+Aug 31, 2026 18:13:55.646 [12500] Debug — Selecting best audio stream for part ID 7775 (language: )
+Aug 31, 2026 18:13:55.646 [12500] Debug — We're going to try to auto-select a subtitle for account 1.
+Aug 31, 2026 18:13:55.646 [12500] Debug — Audio Stream: 31318, Subtitle Stream: -1
+Aug 31, 2026 18:13:55.652 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /library/metadata/5549?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (17 live) #42d3 GZIP 17ms 6485 bytes (pipelined: 36)
+Aug 31, 2026 18:13:55.658 [12500] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /library/metadata/5549/children?excludeAllLeaves=1 (17 live) #433c Page 0-19 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:55.660 [12500] Debug — [Req#433c] Setting container serialization range to [0, 19] (total=-1)
+Aug 31, 2026 18:13:55.663 [12500] Debug — [Req#433c] Setting container serialization range to [0, 19] (total=1)
+Aug 31, 2026 18:13:55.664 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /library/metadata/5549/children?excludeAllLeaves=1 (17 live) #433c GZIP Page 0-19 6ms 1161 bytes (pipelined: 37)
+Aug 31, 2026 18:13:55.705 [12500] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /library/metadata/5549/related?includeAugmentations=1&includeExternalMetadata=1&includeMeta=1 (17 live) #4347 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:55.711 [12500] Debug — [Req#4347] It took 0.000000 ms to retrieve 222 items.
+Aug 31, 2026 18:13:55.715 [12500] Debug — [Req#4347] It took 0.000000 ms to retrieve 173 items.
+Aug 31, 2026 18:13:55.718 [12500] Debug — [Req#4347] It took 0.000000 ms to retrieve 221 items.
+Aug 31, 2026 18:13:55.722 [12500] Debug — There were 1 top-level paths for Canada's Drag Race.
+Aug 31, 2026 18:13:55.723 [12500] Debug — There were 1 top-level paths for RuPaul's Drag Race All Stars.
+Aug 31, 2026 18:13:55.723 [12500] Debug — There were 1 top-level paths for RuPaul's Drag Race: Untucked!.
+Aug 31, 2026 18:13:55.724 [12500] Debug — There were 1 top-level paths for MasterChef.
+Aug 31, 2026 18:13:55.724 [12500] Debug — There were 1 top-level paths for Heated Rivalry.
+Aug 31, 2026 18:13:55.728 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /library/metadata/5549/related?includeAugmentations=1&includeExternalMetadata=1&includeMeta=1 (17 live) #4347 GZIP 22ms 39451 bytes (pipelined: 38)
+Aug 31, 2026 18:13:56.525 [10772] Debug — [Req#427b/Transcode/s24tg82kp3h4ssxd07hkm9rx/bacf99e1-d123-4be0-94ee-8f0078c0ad04] Transcoder segment range: 0 - 32 (32)
+Aug 31, 2026 18:13:57.301 [26780] Debug — Shutting down idle session uwmdpnnaiycn4joj0lbbfkf5 (idle time is 180 seconds)
+Aug 31, 2026 18:13:57.301 [26780] Debug — Killing job.
+Aug 31, 2026 18:13:57.483 [26780] Debug — Job was already killed, not killing again.
+Aug 31, 2026 18:13:57.483 [19296] Debug — Jobs: 'C:\Program Files\Plex\Plex Media Server\Plex Transcoder.exe' exit code for process 22568 is -1059143458 (intentional termination)
+Aug 31, 2026 18:13:57.483 [26780] Debug — Stopping transcode session uwmdpnnaiycn4joj0lbbfkf5
+Aug 31, 2026 18:13:57.483 [13828] Debug — Cleaning directory for session uwmdpnnaiycn4joj0lbbfkf5 (C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-uwmdpnnaiycn4joj0lbbfkf5-b1ed0504-0df4-427a-80fe-1514651c244a)
+Aug 31, 2026 18:13:57.489 [12500] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /status/sessions (16 live) #436c GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:57.489 [12500] Debug — [Req#436c] [Now] Adding 4 sessions.
+Aug 31, 2026 18:13:57.490 [26780] Debug — Whacked session uwmdpnnaiycn4joj0lbbfkf5, 5 remaining.
+Aug 31, 2026 18:13:57.490 [26780] Debug — Killed 1 idle sessions out of a total of 6.
+Aug 31, 2026 18:13:57.495 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /status/sessions (16 live) #436c GZIP 6ms 2402 bytes (pipelined: 39)
+Aug 31, 2026 18:13:57.496 [12500] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /status/sessions (16 live) #42cc GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:13:57.496 [12500] Debug — [Req#42cc] [Now] Adding 4 sessions.
+Aug 31, 2026 18:13:57.501 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /status/sessions (16 live) #42cc GZIP 5ms 2402 bytes (pipelined: 6)
+Aug 31, 2026 18:14:00.073 [10772] Debug — [Req#4377/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 29 (29)
+Aug 31, 2026 18:14:00.294 [26780] Debug — Shutting down idle session tnhnbulvzfri41menayz6xqq (idle time is 180 seconds)
+Aug 31, 2026 18:14:00.294 [26780] Debug — Killing job.
+Aug 31, 2026 18:14:00.299 [26780] Debug — Job was already killed, not killing again.
+Aug 31, 2026 18:14:00.299 [19296] Debug — Jobs: 'C:\Program Files\Plex\Plex Media Server\Plex Transcoder.exe' exit code for process 15816 is -1059143458 (intentional termination)
+Aug 31, 2026 18:14:00.300 [26780] Debug — Stopping transcode session tnhnbulvzfri41menayz6xqq
+Aug 31, 2026 18:14:00.300 [13828] Debug — Cleaning directory for session tnhnbulvzfri41menayz6xqq (C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-tnhnbulvzfri41menayz6xqq-7e1605cc-477c-4d1c-842c-d8999b5c43da)
+Aug 31, 2026 18:14:00.305 [10772] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /status/sessions (15 live) #43a9 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:00.305 [10772] Debug — [Req#43a9] [Now] Adding 4 sessions.
+Aug 31, 2026 18:14:00.305 [26780] Debug — Whacked session tnhnbulvzfri41menayz6xqq, 4 remaining.
+Aug 31, 2026 18:14:00.305 [26780] Debug — Killed 1 idle sessions out of a total of 5.
+Aug 31, 2026 18:14:00.309 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /status/sessions (15 live) #43a9 GZIP 4ms 2399 bytes (pipelined: 7)
+Aug 31, 2026 18:14:00.310 [10772] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /status/sessions (15 live) #43a2 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:00.310 [10772] Debug — [Req#43a2] [Now] Adding 4 sessions.
+Aug 31, 2026 18:14:00.316 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /status/sessions (15 live) #43a2 GZIP 5ms 2399 bytes (pipelined: 40)
+Aug 31, 2026 18:14:00.334 [13828] Debug — Cleaning directory for session tnhnbulvzfri41menayz6xqq (C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-tnhnbulvzfri41menayz6xqq-7e1605cc-477c-4d1c-842c-d8999b5c43da)
+Aug 31, 2026 18:14:00.850 [12512] Debug — [Req#43db/Transcode/ewr7ziv23wcfg8drg50xlrwe/94e27093-6c0b-44cc-a51a-6e6a111cc5af] Transcoder segment range: 0 - 30 (30)
+Aug 31, 2026 18:14:02.193 [13828] Debug — [Req#78/Transcode] Streaming Resource: Timing out session 00000239BB6783D0:9n0nu7cxrxg78yqx9mpffhvq
+Aug 31, 2026 18:14:02.193 [13828] Debug — [Req#78/Transcode] Streaming Resource: Terminating session 00000239BB6783D0:9n0nu7cxrxg78yqx9mpffhvq which is using transcoder slot.  Used slots of CPU is now 0
+Aug 31, 2026 18:14:02.193 [10356] Debug — [Req#78/Transcode] Job was already killed, not killing again.
+Aug 31, 2026 18:14:02.193 [10356] Debug — [Req#78/Transcode] Job was already killed, not killing again.
+Aug 31, 2026 18:14:02.193 [10356] Debug — [Req#78/Transcode] Whacked session uwmdpnnaiycn4joj0lbbfkf5, 4 remaining.
+Aug 31, 2026 18:14:02.193 [13828] Debug — [Req#78/Transcode] Streaming Resource: Terminated session 00000239BB6783D0:9n0nu7cxrxg78yqx9mpffhvq with reason Client stopped playback.
+Aug 31, 2026 18:14:02.193 [13828] Debug — [Req#78/Transcode] Streaming Resource: Removing session 00000239BB6783D0:9n0nu7cxrxg78yqx9mpffhvq
+Aug 31, 2026 18:14:02.261 [11784] Debug — [Req#4411/Transcode/l8qo0hw1vjlwdj0h8aiwkgg1/4bfdbaba-8b3d-4dcd-8532-61cf8938c5df] Transcoder segment range: 0 - 32 (32)
+Aug 31, 2026 18:14:02.448 [10772] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (16 live) #4407 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:02.448 [11784] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /video/:/transcode/universal/ping?session=ewr7ziv23wcfg8drg50xlrwe (16 live) #4400 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:02.448 [11784] Debug — [Req#4400/Transcode] [Now] Freshening session based on ping for 5825izoyn1wlu1tluztvd9fr_Video
+Aug 31, 2026 18:14:02.448 [11784] Debug — [Req#4400/Transcode] Received transcode session ping for session ewr7ziv23wcfg8drg50xlrwe.
+Aug 31, 2026 18:14:02.448 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /video/:/transcode/universal/ping?session=ewr7ziv23wcfg8drg50xlrwe (16 live) #4400 GZIP 0ms 195 bytes (pipelined: 8)
+Aug 31, 2026 18:14:02.448 [10772] Debug — [Req#4407] Client [5825izoyn1wlu1tluztvd9fr] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:02.448 [10772] Debug — [Req#4407] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:02.449 [10772] Debug — [Req#4407] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:02.449 [10772] Debug — [Req#4407] [Now] Profile is Web
+Aug 31, 2026 18:14:02.449 [10772] Debug — [Req#4407] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:02.449 [10772] Debug — [Req#4407] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:02.449 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (16 live) #4407 GZIP 1ms 756 bytes (pipelined: 41)
+Aug 31, 2026 18:14:03.201 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (16 live) #444e GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:03.201 [12512] Debug — [Req#444e] Client [p2oynqa94xp1krof99r0cz9b] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:03.201 [12512] Debug — [Req#444e] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:03.201 [12512] Debug — [Req#444e] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:03.201 [12512] Debug — [Req#444e] [Now] Profile is Web
+Aug 31, 2026 18:14:03.201 [12512] Debug — [Req#444e] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:03.201 [12512] Debug — [Req#444e] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:03.202 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (16 live) #444e GZIP 1ms 758 bytes (pipelined: 42)
+Aug 31, 2026 18:14:09.150 [2324] Debug — BPQ: onConsiderProcessing: Idle (true)
+Aug 31, 2026 18:14:09.150 [2324] Debug — BPQ: [Idle] -> [Processing]
+Aug 31, 2026 18:14:09.150 [2324] Debug — BPQ: generating queue items from 0 generator(s)
+Aug 31, 2026 18:14:09.150 [2324] Debug — BPQ: generated 0 item(s) for queue
+Aug 31, 2026 18:14:09.151 [2324] Debug — BPQ: [Processing] -> [Idle]
+Aug 31, 2026 18:14:09.151 [2324] Debug — BPQ: garbageCollect - version - forced - -1
+Aug 31, 2026 18:14:09.151 [2324] Debug — Versions: garbage collecting
+Aug 31, 2026 18:14:09.151 [2324] Debug — Versions: garbage collected in 0.0 seconds
+Aug 31, 2026 18:14:12.450 [12512] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (15 live) #4470 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:12.451 [12512] Debug — [Req#4470] Client [5825izoyn1wlu1tluztvd9fr] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:12.451 [12512] Debug — [Req#4470] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:12.451 [12512] Debug — [Req#4470] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:12.451 [12512] Debug — [Req#4470] [Now] Profile is Web
+Aug 31, 2026 18:14:12.451 [12512] Debug — [Req#4470] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:12.451 [12512] Debug — [Req#4470] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:12.451 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (15 live) #4470 GZIP 1ms 756 bytes (pipelined: 43)
+Aug 31, 2026 18:14:13.208 [10772] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (13 live) #4434 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:13.208 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /video/:/transcode/universal/ping?session=u7qsebct0no2nxznlsmzo46g (13 live) #450d GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:13.208 [25028] Debug — [Req#450d/Transcode] [Now] Freshening session based on ping for p2oynqa94xp1krof99r0cz9b_Video
+Aug 31, 2026 18:14:13.208 [25028] Debug — [Req#450d/Transcode] Received transcode session ping for session u7qsebct0no2nxznlsmzo46g.
+Aug 31, 2026 18:14:13.208 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /video/:/transcode/universal/ping?session=u7qsebct0no2nxznlsmzo46g (13 live) #450d GZIP 0ms 195 bytes (pipelined: 44)
+Aug 31, 2026 18:14:13.208 [10772] Debug — [Req#4434] Client [p2oynqa94xp1krof99r0cz9b] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:13.208 [10772] Debug — [Req#4434] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:13.208 [10772] Debug — [Req#4434] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:13.208 [10772] Debug — [Req#4434] [Now] Profile is Web
+Aug 31, 2026 18:14:13.208 [10772] Debug — [Req#4434] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:13.208 [10772] Debug — [Req#4434] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:13.209 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (13 live) #4434 GZIP 1ms 758 bytes (pipelined: 9)
+Aug 31, 2026 18:14:19.632 [11784] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /library/sections/3/refresh (13 live) #4535 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.635 [11784] Debug — [Req#4535] Library Updater: Requested that section 3 be updated, force=0, subdir= iTunes=0
+Aug 31, 2026 18:14:19.635 [11784] Debug — [Req#4535] Library Updater: Queueing section 3
+Aug 31, 2026 18:14:19.635 [19564] Debug — Completed: [127.0.0.1:44841] 200 GET /library/sections/3/refresh (13 live) #4535 GZIP 2ms 195 bytes (pipelined: 10)
+Aug 31, 2026 18:14:19.635 [6272] Debug — Activity: registered new activity 35065dd7-b271-4f11-b275-2af1d5adc42d - "Scanning"
+Aug 31, 2026 18:14:19.635 [6272] Info — Notification: Scanning the "TV Shows" section - 
+Aug 31, 2026 18:14:19.636 [6272] Debug — Scanning section 3
+Aug 31, 2026 18:14:19.636 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 0.0% - Scanning TV Shows
+Aug 31, 2026 18:14:19.636 [6272] Debug — Job was already killed, not killing again.
+Aug 31, 2026 18:14:19.636 [6272] Debug — Asked to cull library timeline before time 1788213259, we're starting with 9 items.
+Aug 31, 2026 18:14:19.636 [6272] Debug — Library timeline cull complete with 9 items left.
+Aug 31, 2026 18:14:19.636 [6272] Debug — Scanning TV Shows using en-US(Plex TV Series) with 82 current media items and 2 section locations in the database.
+Aug 31, 2026 18:14:19.636 [6272] Debug — Performing a scan with 'Plex TV Series' (language: en-US virtual: 0).
+Aug 31, 2026 18:14:19.636 [6272] Debug —   * Scanning D:\Media\TV
+
+Aug 31, 2026 18:14:19.636 [6272] Debug — Scanner: Processing directory D:\Media\TV (parent: no)
+Aug 31, 2026 18:14:19.637 [6272] Debug — Skipping over directory '', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.638 [6272] Debug — Scanner: Processing directory D:\Media\TV\Love is Blind - UK (parent: yes)
+Aug 31, 2026 18:14:19.638 [6272] Debug — Skipping over directory 'Love is Blind - UK', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.639 [6272] Debug — Scanner: Processing directory D:\Media\TV\Love is Blind - UK\Season 3 (parent: yes)
+Aug 31, 2026 18:14:19.639 [6272] Debug — Skipping over directory 'Love is Blind - UK\Season 3', as nothing has changed; removing 3 media items from map.
+Aug 31, 2026 18:14:19.639 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 4.9% - Scanning TV Shows
+Aug 31, 2026 18:14:19.639 [6272] Debug — Scanner: Processing directory D:\Media\TV\RuPaul's Drag Race All Stars (parent: yes)
+Aug 31, 2026 18:14:19.640 [6272] Debug — Skipping over directory 'RuPaul's Drag Race All Stars', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.640 [6272] Debug — Scanner: Processing directory D:\Media\TV\RuPaul's Drag Race All Stars\Season 11 (parent: yes)
+Aug 31, 2026 18:14:19.642 [6272] Debug — Skipping over directory 'RuPaul's Drag Race All Stars\Season 11', as nothing has changed; removing 11 media items from map.
+Aug 31, 2026 18:14:19.642 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 9.9% - Scanning TV Shows
+Aug 31, 2026 18:14:19.642 [6272] Debug — Scanner: Processing directory D:\Media\TV\The House of the Spirits (parent: yes)
+Aug 31, 2026 18:14:19.642 [6272] Debug — Skipping over directory 'The House of the Spirits', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.642 [6272] Debug — Scanner: Processing directory D:\Media\TV\The House of the Spirits\Season 1 (parent: yes)
+Aug 31, 2026 18:14:19.643 [6272] Debug — Skipping over directory 'The House of the Spirits\Season 1', as nothing has changed; removing 4 media items from map.
+Aug 31, 2026 18:14:19.643 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 14.8% - Scanning TV Shows
+Aug 31, 2026 18:14:19.643 [6272] Debug — Scanner: Processing directory D:\Media\TV\Heated Rivalry (parent: yes)
+Aug 31, 2026 18:14:19.644 [6272] Debug — Skipping over directory 'Heated Rivalry', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.644 [6272] Debug — Scanner: Processing directory D:\Media\TV\Heated Rivalry\Season 1 (parent: yes)
+Aug 31, 2026 18:14:19.645 [6272] Debug — Skipping over directory 'Heated Rivalry\Season 1', as nothing has changed; removing 6 media items from map.
+Aug 31, 2026 18:14:19.645 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 19.8% - Scanning TV Shows
+Aug 31, 2026 18:14:19.645 [6272] Debug — Scanner: Processing directory D:\Media\TV\Canada's Drag Race (parent: yes)
+Aug 31, 2026 18:14:19.646 [6272] Debug — Skipping over directory 'Canada's Drag Race', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.646 [6272] Debug — Scanner: Processing directory D:\Media\TV\Canada's Drag Race\Season 6 (parent: yes)
+Aug 31, 2026 18:14:19.647 [6272] Debug — Skipping over directory 'Canada's Drag Race\Season 6', as nothing has changed; removing 8 media items from map.
+Aug 31, 2026 18:14:19.648 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 24.8% - Scanning TV Shows
+Aug 31, 2026 18:14:19.648 [6272] Debug — Scanner: Processing directory D:\Media\TV\RuPaul's Drag Race - Untucked! (parent: yes)
+Aug 31, 2026 18:14:19.648 [6272] Debug — Skipping over directory 'RuPaul's Drag Race - Untucked!', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.649 [6272] Debug — Scanner: Processing directory D:\Media\TV\RuPaul's Drag Race - Untucked!\Season 18 (parent: yes)
+Aug 31, 2026 18:14:19.649 [6272] Debug — Skipping over directory 'RuPaul's Drag Race - Untucked!\Season 18', as nothing has changed; removing 1 media items from map.
+Aug 31, 2026 18:14:19.649 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 27.2% - Scanning TV Shows
+Aug 31, 2026 18:14:19.649 [6272] Debug — Scanner: Processing directory D:\Media\TV\RuPaul's Drag Race - Untucked!\Season 17 (parent: yes)
+Aug 31, 2026 18:14:19.651 [6272] Debug — Skipping over directory 'RuPaul's Drag Race - Untucked!\Season 17', as nothing has changed; removing 10 media items from map.
+Aug 31, 2026 18:14:19.651 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 29.7% - Scanning TV Shows
+Aug 31, 2026 18:14:19.651 [6272] Debug — Scanner: Processing directory D:\Media\TV\MasterChef (parent: yes)
+Aug 31, 2026 18:14:19.652 [6272] Debug — Skipping over directory 'MasterChef', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.652 [6272] Debug — Scanner: Processing directory D:\Media\TV\MasterChef\Season 21 (parent: yes)
+Aug 31, 2026 18:14:19.653 [6272] Debug — Skipping over directory 'MasterChef\Season 21', as nothing has changed; removing 3 media items from map.
+Aug 31, 2026 18:14:19.653 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 34.7% - Scanning TV Shows
+Aug 31, 2026 18:14:19.653 [6272] Debug — Scanner: Processing directory D:\Media\TV\Archer (2009) (parent: yes)
+Aug 31, 2026 18:14:19.653 [6272] Debug — Skipping over directory 'Archer (2009)', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.653 [6272] Debug — Scanner: Processing directory D:\Media\TV\Archer (2009)\Season 12 (parent: yes)
+Aug 31, 2026 18:14:19.655 [6272] Debug — Skipping over directory 'Archer (2009)\Season 12', as nothing has changed; removing 8 media items from map.
+Aug 31, 2026 18:14:19.655 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 36.3% - Scanning TV Shows
+Aug 31, 2026 18:14:19.655 [6272] Debug — Scanner: Processing directory D:\Media\TV\Archer (2009)\Season 13 (parent: yes)
+Aug 31, 2026 18:14:19.656 [6272] Debug — Skipping over directory 'Archer (2009)\Season 13', as nothing has changed; removing 7 media items from map.
+Aug 31, 2026 18:14:19.656 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 38.0% - Scanning TV Shows
+Aug 31, 2026 18:14:19.656 [6272] Debug — Scanner: Processing directory D:\Media\TV\Archer (2009)\Season 14 (parent: yes)
+Aug 31, 2026 18:14:19.658 [6272] Debug — Skipping over directory 'Archer (2009)\Season 14', as nothing has changed; removing 9 media items from map.
+Aug 31, 2026 18:14:19.658 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 39.6% - Scanning TV Shows
+Aug 31, 2026 18:14:19.658 [6272] Debug — Scanner: Processing directory D:\Media\TV\Creature Commandos (parent: yes)
+Aug 31, 2026 18:14:19.658 [6272] Debug — Skipping over directory 'Creature Commandos', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.659 [6272] Debug — Scanner: Processing directory D:\Media\TV\Creature Commandos\Season 1 (parent: yes)
+Aug 31, 2026 18:14:19.661 [6272] Debug — Skipping over directory 'Creature Commandos\Season 1', as nothing has changed; removing 7 media items from map.
+Aug 31, 2026 18:14:19.661 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 44.6% - Scanning TV Shows
+Aug 31, 2026 18:14:19.661 [6272] Debug — Scanner: Processing directory D:\Media\TV\Common Side Effects (parent: yes)
+Aug 31, 2026 18:14:19.662 [6272] Debug — Skipping over directory 'Common Side Effects', as nothing has changed; removing 0 media items from map.
+Aug 31, 2026 18:14:19.662 [6272] Debug — Scanner: Processing directory D:\Media\TV\Common Side Effects\Season 1 (parent: yes)
+Aug 31, 2026 18:14:19.663 [6272] Debug — Skipping over directory 'Common Side Effects\Season 1', as nothing has changed; removing 4 media items from map.
+Aug 31, 2026 18:14:19.663 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 49.5% - Scanning TV Shows
+Aug 31, 2026 18:14:19.663 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 49.5% - Scanning TV Shows
+Aug 31, 2026 18:14:19.663 [6272] Debug — Performing a scan with 'Plex TV Series' (language: en-US virtual: 0).
+Aug 31, 2026 18:14:19.663 [6272] Debug —   * Scanning C:\Users\opnet\Documents\MediaLibrary\Series
+
+Aug 31, 2026 18:14:19.663 [6272] Debug — Scanner: Processing directory C:\Users\opnet\Documents\MediaLibrary\Series (parent: no)
+Aug 31, 2026 18:14:19.663 [6272] Warning — Filesystem error (boost::filesystem::last_write_time: The system cannot find the path specified [system:3]: "C:\Users\opnet\Documents\MediaLibrary\Series") during scanning: 3 in "C:\Users\opnet\Documents\MediaLibrary\Series"
+Aug 31, 2026 18:14:19.663 [6272] Error — We got an error scanning in C:\Users\opnet\Documents\MediaLibrary\Series
+Aug 31, 2026 18:14:19.663 [6272] Warning — Scanning the location C:\Users\opnet\Documents\MediaLibrary\Series did not complete
+Aug 31, 2026 18:14:19.663 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 99.0% - Scanning TV Shows
+Aug 31, 2026 18:14:19.663 [6272] Debug — Scanner [Plex TV Series]: Idle and left with 82 media items.
+Aug 31, 2026 18:14:19.663 [6272] Debug — Since it was an incomplete scan, we are not going to whack missing media.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: Found 0 collections tags in section 3.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: We had 0 collections in the library already.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: Synced tags in section 3 in 0ms.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: Found 0 collections tags in section 3.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: We had 0 collections in the library already.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: Synced tags in section 3 in 0ms.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: Found 0 collections tags in section 3.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: We had 0 collections in the library already.
+Aug 31, 2026 18:14:19.664 [6272] Debug — Collections: Synced tags in section 3 in 0ms.
+Aug 31, 2026 18:14:19.665 [6272] Debug — Collections: Refreshed attributes for 0 collections in section 3 in 0ms.
+Aug 31, 2026 18:14:19.665 [6272] Debug — Collection: Refreshed visibility in section 3 in 0ms.
+Aug 31, 2026 18:14:19.665 [6272] Debug — Activity: updated activity 35065dd7-b271-4f11-b275-2af1d5adc42d - completed 100.0% - Scanning TV Shows
+Aug 31, 2026 18:14:19.665 [6272] Debug — Refreshing section 3 of type: 2
+Aug 31, 2026 18:14:19.667 [11008] Debug — Refreshing 0 IDs.
+Aug 31, 2026 18:14:19.667 [6272] Debug — Activity: registered new activity eb2ce1ac-d251-45dc-a021-246e9d89674d - "Processing subscriptions"
+Aug 31, 2026 18:14:19.667 [6272] Debug — Activity: Ended activity 35065dd7-b271-4f11-b275-2af1d5adc42d.
+Aug 31, 2026 18:14:19.668 [6272] Info — Notification: Library scan complete - Extra information may still be downloading from the Internet
+Aug 31, 2026 18:14:19.668 [13828] Debug — Grabber: Cleaning up orphaned grabs.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Activity: registered new activity ffb72d6b-82c8-4559-bb5c-e360db264af9 - "Processing subscriptions"
+Aug 31, 2026 18:14:19.668 [13828] Debug — Subscription: Scheduling subscriptions.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Subscription: Initialized 0 schedulers.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Subscription: Scheduled all subscriptions in 0 ms.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Activity: Ended activity ffb72d6b-82c8-4559-bb5c-e360db264af9.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Subscription: There are 0 active grabs at the end.
+Aug 31, 2026 18:14:19.668 [13828] Debug — Activity: Ended activity eb2ce1ac-d251-45dc-a021-246e9d89674d.
+Aug 31, 2026 18:14:19.669 [13828] Debug — Subscription: Refreshed all content in 1 ms.
+Aug 31, 2026 18:14:19.681 [11784] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /library/sections (13 live) #458a GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.682 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /library/sections (13 live) #458a GZIP 0ms 850 bytes (pipelined: 11)
+Aug 31, 2026 18:14:19.692 [11784] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /library/sections (13 live) #47d0 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.693 [19564] Debug — Completed: [127.0.0.1:44841] 200 GET /library/sections (13 live) #47d0 GZIP 0ms 850 bytes (pipelined: 12)
+Aug 31, 2026 18:14:19.738 [11784] Debug — Request: [192.168.2.20:39894 (Subnet)] GET /library/metadata/5550?includeExtras=1&includeReviews=1&includeOnDeck=1 (13 live) #3938 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.744 [11784] Debug — We're going to try to auto-select an audio stream for account 1.
+Aug 31, 2026 18:14:19.744 [11784] Debug — Selecting best audio stream for part ID 7775 (language: )
+Aug 31, 2026 18:14:19.744 [11784] Debug — We're going to try to auto-select a subtitle for account 1.
+Aug 31, 2026 18:14:19.744 [11784] Debug — Audio Stream: 31318, Subtitle Stream: -1
+Aug 31, 2026 18:14:19.746 [12512] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /media/providers (14 live) #47d5 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.746 [12500] Debug — Request: [192.168.2.15:25567 (Subnet)] GET /media/providers (14 live) #442c TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.747 [27416] Debug — Completed after connection close: [192.168.2.20:39894] 200 GET /library/metadata/5550?includeExtras=1&includeReviews=1&includeOnDeck=1 (14 live) #3938 TLS GZIP 8ms 0 bytes (pipelined: 6)
+Aug 31, 2026 18:14:19.747 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /media/providers (13 live) #47d5 GZIP 1ms 4560 bytes (pipelined: 13)
+Aug 31, 2026 18:14:19.748 [27416] Debug — Completed: [192.168.2.15:25567] 200 GET /media/providers (13 live) #442c TLS GZIP 1ms 4688 bytes (pipelined: 1)
+Aug 31, 2026 18:14:19.804 [12500] Debug — Request: [192.168.2.20:39932 (Subnet)] GET /library/metadata/5550?includeExtras=1&includeReviews=1&includeOnDeck=1 (14 live) #47e2 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.810 [12500] Debug — We're going to try to auto-select an audio stream for account 1.
+Aug 31, 2026 18:14:19.810 [12500] Debug — Selecting best audio stream for part ID 7775 (language: )
+Aug 31, 2026 18:14:19.810 [12500] Debug — We're going to try to auto-select a subtitle for account 1.
+Aug 31, 2026 18:14:19.810 [12500] Debug — Audio Stream: 31318, Subtitle Stream: -1
+Aug 31, 2026 18:14:19.814 [27416] Debug — Completed: [192.168.2.20:39932] 200 GET /library/metadata/5550?includeExtras=1&includeReviews=1&includeOnDeck=1 (14 live) #47e2 TLS GZIP 9ms 3247 bytes (pipelined: 1)
+Aug 31, 2026 18:14:19.966 [10772] Debug — Request: [192.168.2.20:39932 (Subnet)] GET /library/metadata/5550/children?includeExternalMetadata=1&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CGenre%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CRole%2CSimilar%2CTopic%2CVast%2CWriter&libraryHubsOnly=1&includeTypeFirst=1&includeStations=1&excludeFields=file%2Ctagline&includeRecentChannels=1&includeLibraryPlaylists=1 (14 live) #47fe TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:19.967 [10772] Warning — [Req#47fe] QueryParser: Invalid field 'libraryHubsOnly' found, ignoring.
+Aug 31, 2026 18:14:19.969 [19564] Debug — Completed: [192.168.2.20:39932] 200 GET /library/metadata/5550/children?includeExternalMetadata=1&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CGenre%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CRole%2CSimilar%2CTopic%2CVast%2CWriter&libraryHubsOnly=1&includeTypeFirst=1&includeStations=1&excludeFields=file%2Ctagline&includeRecentChannels=1&includeLibraryPlaylists=1 (14 live) #47fe TLS GZIP 3ms 1869 bytes (pipelined: 2)
+Aug 31, 2026 18:14:20.045 [25028] Debug — Request: [192.168.2.20:39932 (Subnet)] GET /library/metadata/5549?includePreferences=1&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CGenre%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CRole%2CSimilar%2CTopic%2CVast%2CWriter&libraryHubsOnly=1&includeTypeFirst=1&includeExtras=1&includeStations=1&excludeFields=file%2Ctagline&includeReviews=1&includeRecentChannels=1&includeLibraryPlaylists=1&asyncAugmentMetadata=1&includeExternalMetadata=1&includeOnDeck=1 (14 live) #4809 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.047 [25028] Debug — There were 1 top-level paths for Love is Blind: UK.
+Aug 31, 2026 18:14:20.055 [27416] Debug — Completed: [192.168.2.20:39932] 200 GET /library/metadata/5549?includePreferences=1&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CGenre%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CRole%2CSimilar%2CTopic%2CVast%2CWriter&libraryHubsOnly=1&includeTypeFirst=1&includeExtras=1&includeStations=1&excludeFields=file%2Ctagline&includeReviews=1&includeRecentChannels=1&includeLibraryPlaylists=1&asyncAugmentMetadata=1&includeExternalMetadata=1&includeOnDeck=1 (14 live) #4809 TLS GZIP 9ms 3204 bytes (pipelined: 3)
+Aug 31, 2026 18:14:20.128 [25028] Debug — Request: [192.168.2.20:39932 (Subnet)] GET /library/metadata/5549/children?includeExternalMetadata=1&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CGenre%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CRole%2CSimilar%2CTopic%2CVast%2CWriter&libraryHubsOnly=1&includeTypeFirst=1&includeStations=1&excludeFields=file%2Ctagline&includeRecentChannels=1&includeLibraryPlaylists=1 (14 live) #4811 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.130 [25028] Warning — [Req#4811] QueryParser: Invalid field 'libraryHubsOnly' found, ignoring.
+Aug 31, 2026 18:14:20.131 [19564] Debug — Completed: [192.168.2.20:39932] 200 GET /library/metadata/5549/children?includeExternalMetadata=1&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CGenre%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CRole%2CSimilar%2CTopic%2CVast%2CWriter&libraryHubsOnly=1&includeTypeFirst=1&includeStations=1&excludeFields=file%2Ctagline&includeRecentChannels=1&includeLibraryPlaylists=1 (14 live) #4811 TLS GZIP 3ms 1090 bytes (pipelined: 4)
+Aug 31, 2026 18:14:20.213 [25028] Debug — Request: [192.168.2.15:25567 (Subnet)] GET /media/providers (14 live) #47ef TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.213 [10772] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /media/providers (14 live) #47eb GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.214 [19564] Debug — Completed: [127.0.0.1:44841] 200 GET /media/providers (14 live) #47eb GZIP 1ms 4560 bytes (pipelined: 14)
+Aug 31, 2026 18:14:20.214 [27416] Debug — Completed: [192.168.2.15:25567] 200 GET /media/providers (14 live) #47ef TLS GZIP 1ms 4688 bytes (pipelined: 2)
+Aug 31, 2026 18:14:20.253 [25028] Debug — Request: [192.168.2.20:39896 (Subnet)] GET /library/metadata/5550/related?count=25&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CSimilar%2CTopic%2CVast%2CWriter&excludeFields=file%2Ctagline&includeAugmentations=1&includeDetails=1&includeEmpty=1&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTrailers=1&includeTypeFirst=1&libraryHubsOnly=1 (14 live) #393b TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.254 [27416] Debug — Completed after connection close: [192.168.2.20:39896] 200 GET /library/metadata/5550/related?count=25&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CSimilar%2CTopic%2CVast%2CWriter&excludeFields=file%2Ctagline&includeAugmentations=1&includeDetails=1&includeEmpty=1&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTrailers=1&includeTypeFirst=1&libraryHubsOnly=1 (14 live) #393b TLS GZIP 1ms 0 bytes (pipelined: 3)
+Aug 31, 2026 18:14:20.272 [25028] Debug — Request: [192.168.2.20:39934 (Subnet)] GET /library/metadata/5550/related?count=25&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CSimilar%2CTopic%2CVast%2CWriter&excludeFields=file%2Ctagline&includeAugmentations=1&includeDetails=1&includeEmpty=1&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTrailers=1&includeTypeFirst=1&libraryHubsOnly=1 (14 live) #47f2 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.274 [19564] Debug — Completed: [192.168.2.20:39934] 200 GET /library/metadata/5550/related?count=25&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CSimilar%2CTopic%2CVast%2CWriter&excludeFields=file%2Ctagline&includeAugmentations=1&includeDetails=1&includeEmpty=1&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTrailers=1&includeTypeFirst=1&libraryHubsOnly=1 (14 live) #47f2 TLS GZIP 1ms 556 bytes (pipelined: 1)
+Aug 31, 2026 18:14:20.515 [25028] Debug — Request: [192.168.2.20:39932 (Subnet)] GET /library/metadata/5557?asyncAugmentMetadata=1&checkFiles=1&includeExtras=1&includeReviews=1 (14 live) #4821 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.519 [25028] Debug — We're going to try to auto-select an audio stream for account 1.
+Aug 31, 2026 18:14:20.519 [25028] Debug — Selecting best audio stream for part ID 7775 (language: )
+Aug 31, 2026 18:14:20.519 [25028] Debug — We're going to try to auto-select a subtitle for account 1.
+Aug 31, 2026 18:14:20.519 [25028] Debug — Audio Stream: 31318, Subtitle Stream: -1
+Aug 31, 2026 18:14:20.522 [27416] Debug — Completed: [192.168.2.20:39932] 200 GET /library/metadata/5557?asyncAugmentMetadata=1&checkFiles=1&includeExtras=1&includeReviews=1 (14 live) #4821 TLS GZIP 6ms 3053 bytes (pipelined: 5)
+Aug 31, 2026 18:14:20.689 [25028] Debug — Request: [192.168.2.20:39934 (Subnet)] GET /library/metadata/5557/related?count=25&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CSimilar%2CTopic%2CVast%2CWriter&excludeFields=file%2Ctagline&includeAugmentations=1&includeDetails=1&includeEmpty=1&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTrailers=1&includeTypeFirst=1&libraryHubsOnly=1 (14 live) #4839 TLS GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:20.692 [19564] Debug — Completed: [192.168.2.20:39934] 200 GET /library/metadata/5557/related?count=25&excludeElements=Actor%2CCollection%2CCountry%2CDirector%2CLabel%2CMood%2CPart%2CPhoto%2CProducer%2CSimilar%2CTopic%2CVast%2CWriter&excludeFields=file%2Ctagline&includeAugmentations=1&includeDetails=1&includeEmpty=1&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1&includeTrailers=1&includeTypeFirst=1&libraryHubsOnly=1 (14 live) #4839 TLS GZIP 2ms 556 bytes (pipelined: 2)
+Aug 31, 2026 18:14:22.463 [12500] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (14 live) #482b GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:22.464 [12500] Debug — [Req#482b] Client [5825izoyn1wlu1tluztvd9fr] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:22.464 [12500] Debug — [Req#482b] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:22.464 [12500] Debug — [Req#482b] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:22.464 [12500] Debug — [Req#482b] [Now] Profile is Web
+Aug 31, 2026 18:14:22.464 [12500] Debug — [Req#482b] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:22.464 [12500] Debug — [Req#482b] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:22.464 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (14 live) #482b GZIP 1ms 748 bytes (pipelined: 15)
+Aug 31, 2026 18:14:23.225 [11784] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (14 live) #487e GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:23.225 [11784] Debug — [Req#487e] Client [p2oynqa94xp1krof99r0cz9b] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:23.225 [11784] Debug — [Req#487e] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:23.225 [11784] Debug — [Req#487e] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:23.225 [11784] Debug — [Req#487e] [Now] Profile is Web
+Aug 31, 2026 18:14:23.225 [11784] Debug — [Req#487e] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:23.225 [11784] Debug — [Req#487e] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:23.226 [19564] Debug — Completed: [127.0.0.1:44841] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (14 live) #487e GZIP 1ms 758 bytes (pipelined: 16)
+Aug 31, 2026 18:14:24.480 [10356] Debug — [Now] Removing idle session for device 9n0nu7cxrxg78yqx9mpffhvq_Video.
+Aug 31, 2026 18:14:24.480 [10356] Debug — Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 3 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:24.480 [10356] Debug — Cleaning directory for session uwmdpnnaiycn4joj0lbbfkf5 (C:\Users\opnet\AppData\Local\Plex Media Server\Cache\Transcode\Sessions\plex-transcode-uwmdpnnaiycn4joj0lbbfkf5-b1ed0504-0df4-427a-80fe-1514651c244a)
+Aug 31, 2026 18:14:25.211 [25028] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /library/metadata/65300e35dbc011e6bde71140/userState (14 live) #489a GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:25.212 [10772] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /library/metadata/5549?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (14 live) #451b GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:25.213 [25028] Warning — [Req#489a] Invalid library metadata ID 65300e35dbc011e6bde71140 passed.
+Aug 31, 2026 18:14:25.213 [27416] Debug — Completed: [127.0.0.1:44841] 404 GET /library/metadata/65300e35dbc011e6bde71140/userState (14 live) #489a GZIP 1ms 379 bytes (pipelined: 17)
+Aug 31, 2026 18:14:25.214 [10772] Debug — [Req#451b] Activity: registered new activity ead23e8e-5384-4f8c-8b20-9a138ad6634d - "Refreshing"
+Aug 31, 2026 18:14:25.214 [23328] Debug — [Req#451b] Activity: updated activity ead23e8e-5384-4f8c-8b20-9a138ad6634d - completed 0.0% - Refreshing
+Aug 31, 2026 18:14:25.214 [23328] Debug — [Req#451b] Activity: updated activity ead23e8e-5384-4f8c-8b20-9a138ad6634d - completed 33.0% - Refreshing
+Aug 31, 2026 18:14:25.214 [23328] Debug — [Req#451b] Activity: updated activity ead23e8e-5384-4f8c-8b20-9a138ad6634d - completed 66.0% - Refreshing
+Aug 31, 2026 18:14:25.215 [23328] Debug — [Req#451b] Activity: Ended activity ead23e8e-5384-4f8c-8b20-9a138ad6634d.
+Aug 31, 2026 18:14:25.216 [10772] Debug — There were 1 top-level paths for Love is Blind: UK.
+Aug 31, 2026 18:14:25.223 [10772] Debug — We're going to try to auto-select an audio stream for account 1.
+Aug 31, 2026 18:14:25.223 [10772] Debug — Selecting best audio stream for part ID 7775 (language: )
+Aug 31, 2026 18:14:25.223 [10772] Debug — We're going to try to auto-select a subtitle for account 1.
+Aug 31, 2026 18:14:25.223 [10772] Debug — Audio Stream: 31318, Subtitle Stream: -1
+Aug 31, 2026 18:14:25.228 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /library/metadata/5549?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (14 live) #451b GZIP 16ms 6485 bytes (pipelined: 45)
+Aug 31, 2026 18:14:25.234 [10772] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /library/metadata/5549/children?excludeAllLeaves=1 (14 live) #48fa Page 0-0 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:25.236 [10772] Debug — [Req#48fa] Setting container serialization range to [0, 0] (total=-1)
+Aug 31, 2026 18:14:25.239 [10772] Debug — [Req#48fa] Setting container serialization range to [0, 0] (total=1)
+Aug 31, 2026 18:14:25.240 [27416] Debug — Completed: [127.0.0.1:50115] 200 GET /library/metadata/5549/children?excludeAllLeaves=1 (14 live) #48fa GZIP Page 0-0 6ms 1161 bytes (pipelined: 46)
+Aug 31, 2026 18:14:25.280 [10772] Debug — [Req#4836/Transcode/ewr7ziv23wcfg8drg50xlrwe/94e27093-6c0b-44cc-a51a-6e6a111cc5af] Transcoder segment range: 0 - 31 (31)
+Aug 31, 2026 18:14:25.370 [10772] Debug — [Req#4909/Transcode/s24tg82kp3h4ssxd07hkm9rx/bacf99e1-d123-4be0-94ee-8f0078c0ad04] Transcoder segment range: 0 - 33 (33)
+Aug 31, 2026 18:14:31.302 [12512] Debug — [Req#490d/Transcode/l8qo0hw1vjlwdj0h8aiwkgg1/4bfdbaba-8b3d-4dcd-8532-61cf8938c5df] Transcoder segment range: 0 - 33 (33)
+Aug 31, 2026 18:14:33.004 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (15 live) #4905 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:33.005 [25028] Debug — [Req#4905] Client [p2oynqa94xp1krof99r0cz9b] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:33.005 [25028] Debug — [Req#4905] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:33.005 [25028] Debug — [Req#4905] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:33.005 [25028] Debug — [Req#4905] [Now] Profile is Web
+Aug 31, 2026 18:14:33.005 [25028] Debug — [Req#4905] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:33.005 [25028] Debug — [Req#4905] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:33.005 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (15 live) #4905 GZIP 1ms 759 bytes (pipelined: 47)
+Aug 31, 2026 18:14:33.207 [12500] Debug — Request: [127.0.0.1:44841 (Loopback)] GET /video/:/transcode/universal/ping?session=ewr7ziv23wcfg8drg50xlrwe (15 live) #48c5 GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:33.207 [25028] Debug — Request: [127.0.0.1:50115 (Loopback)] GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (15 live) #498a GZIP Signed-in Token (joelkl3)
+Aug 31, 2026 18:14:33.207 [12500] Debug — [Req#48c5/Transcode] [Now] Freshening session based on ping for 5825izoyn1wlu1tluztvd9fr_Video
+Aug 31, 2026 18:14:33.207 [12500] Debug — [Req#48c5/Transcode] Received transcode session ping for session ewr7ziv23wcfg8drg50xlrwe.
+Aug 31, 2026 18:14:33.207 [27416] Debug — Completed: [127.0.0.1:44841] 200 GET /video/:/transcode/universal/ping?session=ewr7ziv23wcfg8drg50xlrwe (15 live) #48c5 GZIP 0ms 195 bytes (pipelined: 18)
+Aug 31, 2026 18:14:33.208 [25028] Debug — [Req#498a] Client [5825izoyn1wlu1tluztvd9fr] reporting timeline state paused, progress of 2000/3995000ms for guid=, playbackTime=0ms ratingKey=5557 url=, key=/library/metadata/5557, containerKey=, metadataId=5557, source=
+Aug 31, 2026 18:14:33.208 [25028] Debug — [Req#498a] [Now] User is joelkl3 (ID: 1)
+Aug 31, 2026 18:14:33.208 [25028] Debug — [Req#498a] [Now] Device is Chrome (Chrome).
+Aug 31, 2026 18:14:33.208 [25028] Debug — [Req#498a] [Now] Profile is Web
+Aug 31, 2026 18:14:33.208 [25028] Debug — [Req#498a] [Now] Updated play state for /library/metadata/5557.
+Aug 31, 2026 18:14:33.208 [25028] Debug — [Req#498a] Statistics: (uqiqyjnjiymilvuu7kjw7e2w) Reporting active playback in state 1 of type 4 (scrobble: 0) for account 1
+Aug 31, 2026 18:14:33.208 [19564] Debug — Completed: [127.0.0.1:50115] 200 GET /:/timeline?ratingKey=5557&key=%2Flibrary%2Fmetadata%2F5557&playbackTime=0&playQueueItemID=2024&state=paused&hasMDE=1&time=2000&duration=3995000 (15 live) #498a GZIP 1ms 747 bytes (pipelined: 48)
+Aug 31, 2026 18:14:36.574 [25028] Debug — [Req#495b/Transcode/u7qsebct0no2nxznlsmzo46g/cee56888-e46d-40f9-9065-ceb6c4faf67a] Transcoder segment range: 0 - 30 (30)

@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
     "publish"
-  ]
+  ],
+  "theme": "obsidian"
 }
